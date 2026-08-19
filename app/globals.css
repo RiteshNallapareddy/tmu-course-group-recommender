@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #ffffff;
+  --paper-raised: #f5fafe;
+  --ink: #0a0a0a;
+  --ink-soft: #52525b;
+  --blueprint: #0057b8;
+  --blueprint-light: #55b9e8;
+  --yellow: #ffd100;
+  --line: #e5e5e5;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-blueprint: var(--blueprint);
+  --color-blueprint-light: var(--blueprint-light);
+  --color-yellow: var(--yellow);
+  --color-line: var(--line);
+  /* next/font/google isn't reachable from this sandbox, so we approximate
+     the intended pairing (geometric display / institutional sans / technical
+     mono) with a robust system stack instead. Swap in next/font once
+     deployed somewhere with normal network access. Body moved from a
+     literary serif to a sans stack to read closer to a TMU/engineering
+     institutional site rather than an editorial one. */
+  --font-display: "Avenir Next", "Century Gothic", Futura, "Segoe UI",
+    system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", "Helvetica Neue", Arial, system-ui,
+    sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", "Consolas", "Menlo", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* Reusable small-caps/uppercase treatment for section labels, eyebrows, and
+   course-code tags — the only places the design direction wants uppercase. */
+.eyebrow {
+  font-family: var(--font-mono), monospace;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+::selection {
+  background: var(--blueprint-light);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blueprint);
+  outline-offset: 3px;
+}
+
+/* Blueprint drafting-table grid: a fine dot lattice, subject-appropriate for
+   an Engineering-facing tool, kept quiet enough to sit behind content. */
+.blueprint-grid {
+  background-image: radial-gradient(circle, rgba(47, 111, 166, 0.28) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.blueprint-grid-fine {
+  background-image: radial-gradient(circle, rgba(47, 111, 166, 0.22) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* Drafting corner ticks — the recurring signature motif, used sparingly on
+   the hero and the top-match card to evoke a technical drawing's frame
+   registration marks. */
+.corner-ticks {
+  position: relative;
+}
+.corner-ticks::before,
+.corner-ticks::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  opacity: 0.55;
+}
+.corner-ticks::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid var(--blueprint);
+  border-left: 2px solid var(--blueprint);
+}
+.corner-ticks::after {
+  top: -1px;
+  right: -1px;
+  border-top: 2px solid var(--blueprint);
+  border-right: 2px solid var(--blueprint);
+}
+
+.dimension-line {
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--blueprint) 0,
+    var(--blueprint) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  height: 1px;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+.font-mono-tag {
+  font-family: var(--font-mono), monospace;
+}

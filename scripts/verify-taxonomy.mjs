@@ -174,14 +174,9 @@ const rel200 = byCode.get("REL 200")?.estimated?.interestTags ?? [];
 check("[8] REL 200 tags are exactly [world-religions]", JSON.stringify(rel200) === JSON.stringify(["world-religions"]));
 
 const bpm441 = byCode.get("BPM 441")?.estimated?.interestTags ?? [];
-const approvedBpm441 = [
-  "global-issues-international-affairs",
-  "music-history-global-traditions",
-  "film-studies",
-  "economics-markets",
-];
+const approvedBpm441 = ["music-history-global-traditions", "film-studies"];
 check(
-  "[8] BPM 441 tags match the explicitly approved 4-tag set",
+  "[8] BPM 441 tags match the explicitly approved 2-tag set",
   JSON.stringify([...bpm441].sort()) === JSON.stringify([...approvedBpm441].sort())
 );
 

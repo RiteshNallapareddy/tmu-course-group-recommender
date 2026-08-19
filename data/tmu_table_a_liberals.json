@@ -877,7 +877,6 @@
       "estimated": {
         "note": "Curated interestTags assigned by reading this course's actual title, description, and program context against the researched 36-interest taxonomy (data/interests.ts) — not keyword-matched. Other estimated fields (difficulty, workload flags, ideal student) remain deferred to a later milestone.",
         "interestTags": [
-          "global-issues-international-affairs",
           "geography-globalization-cities"
         ]
       },
@@ -1259,7 +1258,6 @@
       "estimated": {
         "note": "Curated interestTags assigned by reading this course's actual title, description, and program context against the researched 36-interest taxonomy (data/interests.ts) — not keyword-matched. Other estimated fields (difficulty, workload flags, ideal student) remain deferred to a later milestone.",
         "interestTags": [
-          "ethics-freedom-justice",
           "world-religions"
         ]
       },
@@ -3016,10 +3014,8 @@
       "estimated": {
         "note": "Curated interestTags assigned by reading this course's actual title, description, and program context against the researched 36-interest taxonomy (data/interests.ts) — not keyword-matched. Other estimated fields (difficulty, workload flags, ideal student) remain deferred to a later milestone.",
         "interestTags": [
-          "global-issues-international-affairs",
           "music-history-global-traditions",
-          "film-studies",
-          "economics-markets"
+          "film-studies"
         ]
       },
       "verificationStatus": "VERIFIED",

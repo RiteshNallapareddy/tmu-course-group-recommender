@@ -1,0 +1,1513 @@
+{
+  "generatedAt": "2026-09-14T18:32:16.951Z",
+  "byCourse": {
+    "BPM 484": [
+      {
+        "minorName": "Black Studies Minor",
+        "minorSlug": "blackstudies_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 32,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/blackstudies_minor.html"
+      }
+    ],
+    "SOC 221": [
+      {
+        "minorName": "Black Studies Minor",
+        "minorSlug": "blackstudies_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 32,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/blackstudies_minor.html"
+      }
+    ],
+    "HST 222": [
+      {
+        "minorName": "Black Studies Minor",
+        "minorSlug": "blackstudies_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 8,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/blackstudies_minor.html"
+      },
+      {
+        "minorName": "Caribbean Studies Minor",
+        "minorSlug": "caribbean-studies_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 14,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/caribbean-studies_minor.html"
+      }
+    ],
+    "CRB 100": [
+      {
+        "minorName": "Caribbean Studies Minor",
+        "minorSlug": "caribbean-studies_minor",
+        "role": "required",
+        "chooseCount": null,
+        "optionPoolSize": null,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/caribbean-studies_minor.html"
+      },
+      {
+        "minorName": "Tourism Minor",
+        "minorSlug": "tourism_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 11,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/tourism_minor.html"
+      }
+    ],
+    "IRL 100": [
+      {
+        "minorName": "Communication Design Minor",
+        "minorSlug": "communication_design_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 8,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/communication_design_minor.html"
+      }
+    ],
+    "CRM 101": [
+      {
+        "minorName": "Criminology Minor",
+        "minorSlug": "criminology_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 2,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/criminology_minor.html"
+      }
+    ],
+    "DST 300": [
+      {
+        "minorName": "Disability Studies Minor",
+        "minorSlug": "disability_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 20,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/disability_studies_minor.html"
+      },
+      {
+        "minorName": "LGBTQ2S+ Studies Minor",
+        "minorSlug": "lgbtq2s_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 27,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/lgbtq2s_studies_minor.html"
+      }
+    ],
+    "ASL 101": [
+      {
+        "minorName": "Disability Studies Minor",
+        "minorSlug": "disability_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 39,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/disability_studies_minor.html"
+      }
+    ],
+    "ASL 201": [
+      {
+        "minorName": "Disability Studies Minor",
+        "minorSlug": "disability_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 39,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/disability_studies_minor.html"
+      }
+    ],
+    "PSY 105": [
+      {
+        "minorName": "Disability Studies Minor",
+        "minorSlug": "disability_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 39,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/disability_studies_minor.html"
+      },
+      {
+        "minorName": "Psychology Minor",
+        "minorSlug": "psychology_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 2,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/psychology_minor.html"
+      }
+    ],
+    "ECN 340": [
+      {
+        "minorName": "Economics Minor",
+        "minorSlug": "economics_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 40,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/economics_minor.html"
+      }
+    ],
+    "ECN 440": [
+      {
+        "minorName": "Economics Minor",
+        "minorSlug": "economics_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 40,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/economics_minor.html"
+      }
+    ],
+    "ENG 101": [
+      {
+        "minorName": "English Minor",
+        "minorSlug": "english_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 63,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html"
+      }
+    ],
+    "ENG 104": [
+      {
+        "minorName": "English Minor",
+        "minorSlug": "english_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 63,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html"
+      }
+    ],
+    "ENG 112": [
+      {
+        "minorName": "English Minor",
+        "minorSlug": "english_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 63,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html"
+      }
+    ],
+    "ENG 201": [
+      {
+        "minorName": "English Minor",
+        "minorSlug": "english_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 63,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html"
+      }
+    ],
+    "ENG 203": [
+      {
+        "minorName": "English Minor",
+        "minorSlug": "english_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 63,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html"
+      },
+      {
+        "minorName": "Global Narratives Minor",
+        "minorSlug": "global_narratives_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 12,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_narratives_minor.html"
+      },
+      {
+        "minorName": "Indigenous Thought Minor",
+        "minorSlug": "indigenous_thought_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 11,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/indigenous_thought_minor.html"
+      }
+    ],
+    "ENG 212": [
+      {
+        "minorName": "English Minor",
+        "minorSlug": "english_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 63,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html"
+      }
+    ],
+    "PHL 306": [
+      {
+        "minorName": "Ethics Minor",
+        "minorSlug": "ethics_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 19,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/ethics_minor.html"
+      },
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 406": [
+      {
+        "minorName": "Ethics Minor",
+        "minorSlug": "ethics_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 19,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/ethics_minor.html"
+      },
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "SOC 202": [
+      {
+        "minorName": "Events and Live Entertainment Management Minor",
+        "minorSlug": "events_entertainment_minor",
+        "role": "elective_option",
+        "chooseCount": 4,
+        "optionPoolSize": 16,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/events_entertainment_minor.html"
+      }
+    ],
+    "EUS 180": [
+      {
+        "minorName": "Environmental and Urban Sustainability Minor",
+        "minorSlug": "eus_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 32,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/eus_minor.html"
+      },
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 24,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      }
+    ],
+    "POL 106": [
+      {
+        "minorName": "Family Supports and Community Practice Minor",
+        "minorSlug": "family_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 38,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/family_minor.html"
+      },
+      {
+        "minorName": "Politics Minor",
+        "minorSlug": "politics_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 17,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/politics_minor.html"
+      }
+    ],
+    "SOC 108": [
+      {
+        "minorName": "Family Supports and Community Practice Minor",
+        "minorSlug": "family_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 38,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/family_minor.html"
+      }
+    ],
+    "SOC 203": [
+      {
+        "minorName": "Family Supports and Community Practice Minor",
+        "minorSlug": "family_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 38,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/family_minor.html"
+      }
+    ],
+    "HST 119": [
+      {
+        "minorName": "Film (Cinema) Studies Minor",
+        "minorSlug": "film_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 14,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/film_minor.html"
+      }
+    ],
+    "HST 219": [
+      {
+        "minorName": "Film (Cinema) Studies Minor",
+        "minorSlug": "film_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 14,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/film_minor.html"
+      }
+    ],
+    "NPF 188": [
+      {
+        "minorName": "Film (Cinema) Studies Minor",
+        "minorSlug": "film_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 14,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/film_minor.html"
+      },
+      {
+        "minorName": "Visual Studies Minor",
+        "minorSlug": "visual_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 14,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/visual_minor.html"
+      }
+    ],
+    "POL 128": [
+      {
+        "minorName": "Film (Cinema) Studies Minor",
+        "minorSlug": "film_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 14,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/film_minor.html"
+      },
+      {
+        "minorName": "Politics Minor",
+        "minorSlug": "politics_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 17,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/politics_minor.html"
+      }
+    ],
+    "HST 430": [
+      {
+        "minorName": "Food, Culture and Society Minor",
+        "minorSlug": "food_culture_and_society_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 7,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/food_culture_and_society_minor.html"
+      }
+    ],
+    "GEO 110": [
+      {
+        "minorName": "Geographic Analysis Minor",
+        "minorSlug": "geographic_analysis_minor",
+        "role": "elective_option",
+        "chooseCount": 4,
+        "optionPoolSize": 14,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geographic_analysis_minor.html"
+      },
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 4,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      },
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 13,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      }
+    ],
+    "GEO 106": [
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 13,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      }
+    ],
+    "GEO 108": [
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 13,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      },
+      {
+        "minorName": "Global Politics and Development Minor",
+        "minorSlug": "global_politics_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 30,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_politics_minor.html"
+      }
+    ],
+    "GEO 206": [
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 13,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      }
+    ],
+    "GEO 208": [
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 13,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      },
+      {
+        "minorName": "Global Politics and Development Minor",
+        "minorSlug": "global_politics_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 30,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_politics_minor.html"
+      }
+    ],
+    "GEO 210": [
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 13,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      }
+    ],
+    "GEO 312": [
+      {
+        "minorName": "Geography Minor",
+        "minorSlug": "geography_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 13,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html"
+      }
+    ],
+    "POL 208": [
+      {
+        "minorName": "Global Politics and Development Minor",
+        "minorSlug": "global_politics_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 2,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_politics_minor.html"
+      },
+      {
+        "minorName": "Politics Minor",
+        "minorSlug": "politics_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 17,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/politics_minor.html"
+      }
+    ],
+    "HAU 100": [
+      {
+        "minorName": "Indigenous Thought Minor",
+        "minorSlug": "indigenous_thought_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 11,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/indigenous_thought_minor.html"
+      }
+    ],
+    "MHK 101": [
+      {
+        "minorName": "Indigenous Thought Minor",
+        "minorSlug": "indigenous_thought_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 11,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/indigenous_thought_minor.html"
+      }
+    ],
+    "MHK 201": [
+      {
+        "minorName": "Indigenous Thought Minor",
+        "minorSlug": "indigenous_thought_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 11,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/indigenous_thought_minor.html"
+      }
+    ],
+    "HST 375": [
+      {
+        "minorName": "LGBTQ2S+ Studies Minor",
+        "minorSlug": "lgbtq2s_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 3,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/lgbtq2s_studies_minor.html"
+      },
+      {
+        "minorName": "LGBTQ2S+ Studies Minor",
+        "minorSlug": "lgbtq2s_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 27,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/lgbtq2s_studies_minor.html"
+      }
+    ],
+    "CMN 230": [
+      {
+        "minorName": "LGBTQ2S+ Studies Minor",
+        "minorSlug": "lgbtq2s_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 27,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/lgbtq2s_studies_minor.html"
+      },
+      {
+        "minorName": "Professional Communication Minor",
+        "minorSlug": "pro_comm_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 18,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/pro_comm_minor.html"
+      }
+    ],
+    "PSY 304": [
+      {
+        "minorName": "LGBTQ2S+ Studies Minor",
+        "minorSlug": "lgbtq2s_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 27,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/lgbtq2s_studies_minor.html"
+      },
+      {
+        "minorName": "Psychology Minor",
+        "minorSlug": "psychology_minor",
+        "role": "elective_option",
+        "chooseCount": 4,
+        "optionPoolSize": 50,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/psychology_minor.html"
+      }
+    ],
+    "ARB 101": [
+      {
+        "minorName": "Middle East and North Africa (MENA) Studies Minor",
+        "minorSlug": "mena_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 7,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/mena_studies_minor.html"
+      }
+    ],
+    "ARB 201": [
+      {
+        "minorName": "Middle East and North Africa (MENA) Studies Minor",
+        "minorSlug": "mena_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 7,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/mena_studies_minor.html"
+      }
+    ],
+    "REL 215": [
+      {
+        "minorName": "Middle East and North Africa (MENA) Studies Minor",
+        "minorSlug": "mena_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 5,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/mena_studies_minor.html"
+      }
+    ],
+    "REL 225": [
+      {
+        "minorName": "Middle East and North Africa (MENA) Studies Minor",
+        "minorSlug": "mena_studies_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 5,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/mena_studies_minor.html"
+      }
+    ],
+    "MUS 101": [
+      {
+        "minorName": "Music and Culture Minor",
+        "minorSlug": "music_culture_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 2,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html"
+      },
+      {
+        "minorName": "Music and Culture Minor",
+        "minorSlug": "music_culture_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 6,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html"
+      }
+    ],
+    "MUS 106": [
+      {
+        "minorName": "Music and Culture Minor",
+        "minorSlug": "music_culture_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 2,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html"
+      },
+      {
+        "minorName": "Music and Culture Minor",
+        "minorSlug": "music_culture_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 6,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html"
+      }
+    ],
+    "MUS 105": [
+      {
+        "minorName": "Music and Culture Minor",
+        "minorSlug": "music_culture_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 6,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html"
+      }
+    ],
+    "MUS 201": [
+      {
+        "minorName": "Music and Culture Minor",
+        "minorSlug": "music_culture_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 6,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html"
+      }
+    ],
+    "MUS 220": [
+      {
+        "minorName": "Music and Culture Minor",
+        "minorSlug": "music_culture_minor",
+        "role": "elective_option",
+        "chooseCount": 2,
+        "optionPoolSize": 6,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html"
+      }
+    ],
+    "THL 100": [
+      {
+        "minorName": "Performance Minor",
+        "minorSlug": "performance_minor",
+        "role": "elective_option",
+        "chooseCount": 4,
+        "optionPoolSize": 20,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/performance_minor.html"
+      }
+    ],
+    "PHL 214": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 2,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 101": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 110": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 187": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 201": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 202": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 210": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 333": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 365": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "PHL 366": [
+      {
+        "minorName": "Philosophy Minor",
+        "minorSlug": "philosophy_minor",
+        "role": "elective_option",
+        "chooseCount": 5,
+        "optionPoolSize": 58,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html"
+      }
+    ],
+    "POL 129": [
+      {
+        "minorName": "Politics Minor",
+        "minorSlug": "politics_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 17,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/politics_minor.html"
+      }
+    ],
+    "POL 203": [
+      {
+        "minorName": "Politics Minor",
+        "minorSlug": "politics_minor",
+        "role": "elective_option",
+        "chooseCount": 3,
+        "optionPoolSize": 17,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/politics_minor.html"
+      }
+    ],
+    "PSY 308": [
+      {
+        "minorName": "Psychology Minor",
+        "minorSlug": "psychology_minor",
+        "role": "elective_option",
+        "chooseCount": 4,
+        "optionPoolSize": 50,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/psychology_minor.html"
+      }
+    ],
+    "SOC 103": [
+      {
+        "minorName": "Sociology Minor",
+        "minorSlug": "sociology_minor",
+        "role": "elective_option",
+        "chooseCount": 1,
+        "optionPoolSize": 4,
+        "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/sociology_minor.html"
+      }
+    ]
+  },
+  "byMinor": {
+    "blackstudies_minor": {
+      "minorName": "Black Studies Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/blackstudies_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "BPM 484",
+          "chooseCount": 3,
+          "optionPoolSize": 32
+        },
+        {
+          "courseCode": "SOC 221",
+          "chooseCount": 3,
+          "optionPoolSize": 32
+        },
+        {
+          "courseCode": "HST 222",
+          "chooseCount": 2,
+          "optionPoolSize": 8
+        }
+      ]
+    },
+    "caribbean-studies_minor": {
+      "minorName": "Caribbean Studies Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/caribbean-studies_minor.html",
+      "requiredMatches": [
+        "CRB 100"
+      ],
+      "electiveMatches": [
+        {
+          "courseCode": "HST 222",
+          "chooseCount": 5,
+          "optionPoolSize": 14
+        }
+      ]
+    },
+    "communication_design_minor": {
+      "minorName": "Communication Design Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/communication_design_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "IRL 100",
+          "chooseCount": 1,
+          "optionPoolSize": 8
+        }
+      ]
+    },
+    "criminology_minor": {
+      "minorName": "Criminology Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/criminology_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "CRM 101",
+          "chooseCount": 1,
+          "optionPoolSize": 2
+        }
+      ]
+    },
+    "disability_studies_minor": {
+      "minorName": "Disability Studies Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/disability_studies_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "DST 300",
+          "chooseCount": 3,
+          "optionPoolSize": 20
+        },
+        {
+          "courseCode": "ASL 101",
+          "chooseCount": 2,
+          "optionPoolSize": 39
+        },
+        {
+          "courseCode": "ASL 201",
+          "chooseCount": 2,
+          "optionPoolSize": 39
+        },
+        {
+          "courseCode": "PSY 105",
+          "chooseCount": 2,
+          "optionPoolSize": 39
+        }
+      ]
+    },
+    "economics_minor": {
+      "minorName": "Economics Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/economics_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "ECN 340",
+          "chooseCount": 2,
+          "optionPoolSize": 40
+        },
+        {
+          "courseCode": "ECN 440",
+          "chooseCount": 2,
+          "optionPoolSize": 40
+        }
+      ]
+    },
+    "english_minor": {
+      "minorName": "English Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "ENG 101",
+          "chooseCount": 5,
+          "optionPoolSize": 63
+        },
+        {
+          "courseCode": "ENG 104",
+          "chooseCount": 5,
+          "optionPoolSize": 63
+        },
+        {
+          "courseCode": "ENG 112",
+          "chooseCount": 5,
+          "optionPoolSize": 63
+        },
+        {
+          "courseCode": "ENG 201",
+          "chooseCount": 5,
+          "optionPoolSize": 63
+        },
+        {
+          "courseCode": "ENG 203",
+          "chooseCount": 5,
+          "optionPoolSize": 63
+        },
+        {
+          "courseCode": "ENG 212",
+          "chooseCount": 5,
+          "optionPoolSize": 63
+        }
+      ]
+    },
+    "ethics_minor": {
+      "minorName": "Ethics Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/ethics_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "PHL 306",
+          "chooseCount": 5,
+          "optionPoolSize": 19
+        },
+        {
+          "courseCode": "PHL 406",
+          "chooseCount": 5,
+          "optionPoolSize": 19
+        }
+      ]
+    },
+    "events_entertainment_minor": {
+      "minorName": "Events and Live Entertainment Management Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/events_entertainment_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "SOC 202",
+          "chooseCount": 4,
+          "optionPoolSize": 16
+        }
+      ]
+    },
+    "eus_minor": {
+      "minorName": "Environmental and Urban Sustainability Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/eus_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "EUS 180",
+          "chooseCount": 2,
+          "optionPoolSize": 32
+        }
+      ]
+    },
+    "family_minor": {
+      "minorName": "Family Supports and Community Practice Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/family_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "POL 106",
+          "chooseCount": 5,
+          "optionPoolSize": 38
+        },
+        {
+          "courseCode": "SOC 108",
+          "chooseCount": 5,
+          "optionPoolSize": 38
+        },
+        {
+          "courseCode": "SOC 203",
+          "chooseCount": 5,
+          "optionPoolSize": 38
+        }
+      ]
+    },
+    "film_minor": {
+      "minorName": "Film (Cinema) Studies Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/film_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "HST 119",
+          "chooseCount": 5,
+          "optionPoolSize": 14
+        },
+        {
+          "courseCode": "HST 219",
+          "chooseCount": 5,
+          "optionPoolSize": 14
+        },
+        {
+          "courseCode": "NPF 188",
+          "chooseCount": 5,
+          "optionPoolSize": 14
+        },
+        {
+          "courseCode": "POL 128",
+          "chooseCount": 5,
+          "optionPoolSize": 14
+        }
+      ]
+    },
+    "food_culture_and_society_minor": {
+      "minorName": "Food, Culture and Society Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/food_culture_and_society_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "HST 430",
+          "chooseCount": 3,
+          "optionPoolSize": 7
+        }
+      ]
+    },
+    "geographic_analysis_minor": {
+      "minorName": "Geographic Analysis Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geographic_analysis_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "GEO 110",
+          "chooseCount": 4,
+          "optionPoolSize": 14
+        }
+      ]
+    },
+    "geography_minor": {
+      "minorName": "Geography Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "GEO 110",
+          "chooseCount": 1,
+          "optionPoolSize": 4
+        },
+        {
+          "courseCode": "GEO 106",
+          "chooseCount": 2,
+          "optionPoolSize": 13
+        },
+        {
+          "courseCode": "GEO 108",
+          "chooseCount": 2,
+          "optionPoolSize": 13
+        },
+        {
+          "courseCode": "GEO 110",
+          "chooseCount": 2,
+          "optionPoolSize": 13
+        },
+        {
+          "courseCode": "GEO 206",
+          "chooseCount": 2,
+          "optionPoolSize": 13
+        },
+        {
+          "courseCode": "GEO 208",
+          "chooseCount": 2,
+          "optionPoolSize": 13
+        },
+        {
+          "courseCode": "GEO 210",
+          "chooseCount": 2,
+          "optionPoolSize": 13
+        },
+        {
+          "courseCode": "GEO 312",
+          "chooseCount": 2,
+          "optionPoolSize": 13
+        },
+        {
+          "courseCode": "EUS 180",
+          "chooseCount": 3,
+          "optionPoolSize": 24
+        }
+      ]
+    },
+    "global_narratives_minor": {
+      "minorName": "Global Narratives Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_narratives_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "ENG 203",
+          "chooseCount": 2,
+          "optionPoolSize": 12
+        }
+      ]
+    },
+    "global_politics_minor": {
+      "minorName": "Global Politics and Development Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_politics_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "POL 208",
+          "chooseCount": 1,
+          "optionPoolSize": 2
+        },
+        {
+          "courseCode": "GEO 108",
+          "chooseCount": 3,
+          "optionPoolSize": 30
+        },
+        {
+          "courseCode": "GEO 208",
+          "chooseCount": 3,
+          "optionPoolSize": 30
+        }
+      ]
+    },
+    "indigenous_thought_minor": {
+      "minorName": "Indigenous Thought Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/indigenous_thought_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "ENG 203",
+          "chooseCount": 5,
+          "optionPoolSize": 11
+        },
+        {
+          "courseCode": "HAU 100",
+          "chooseCount": 5,
+          "optionPoolSize": 11
+        },
+        {
+          "courseCode": "MHK 101",
+          "chooseCount": 5,
+          "optionPoolSize": 11
+        },
+        {
+          "courseCode": "MHK 201",
+          "chooseCount": 5,
+          "optionPoolSize": 11
+        }
+      ]
+    },
+    "lgbtq2s_studies_minor": {
+      "minorName": "LGBTQ2S+ Studies Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/lgbtq2s_studies_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "HST 375",
+          "chooseCount": 1,
+          "optionPoolSize": 3
+        },
+        {
+          "courseCode": "CMN 230",
+          "chooseCount": 5,
+          "optionPoolSize": 27
+        },
+        {
+          "courseCode": "DST 300",
+          "chooseCount": 5,
+          "optionPoolSize": 27
+        },
+        {
+          "courseCode": "HST 375",
+          "chooseCount": 5,
+          "optionPoolSize": 27
+        },
+        {
+          "courseCode": "PSY 304",
+          "chooseCount": 5,
+          "optionPoolSize": 27
+        }
+      ]
+    },
+    "mena_studies_minor": {
+      "minorName": "Middle East and North Africa (MENA) Studies Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/mena_studies_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "ARB 101",
+          "chooseCount": 1,
+          "optionPoolSize": 7
+        },
+        {
+          "courseCode": "ARB 201",
+          "chooseCount": 1,
+          "optionPoolSize": 7
+        },
+        {
+          "courseCode": "REL 215",
+          "chooseCount": 1,
+          "optionPoolSize": 5
+        },
+        {
+          "courseCode": "REL 225",
+          "chooseCount": 1,
+          "optionPoolSize": 5
+        }
+      ]
+    },
+    "music_culture_minor": {
+      "minorName": "Music and Culture Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "MUS 101",
+          "chooseCount": 1,
+          "optionPoolSize": 2
+        },
+        {
+          "courseCode": "MUS 106",
+          "chooseCount": 1,
+          "optionPoolSize": 2
+        },
+        {
+          "courseCode": "MUS 101",
+          "chooseCount": 2,
+          "optionPoolSize": 6
+        },
+        {
+          "courseCode": "MUS 106",
+          "chooseCount": 2,
+          "optionPoolSize": 6
+        },
+        {
+          "courseCode": "MUS 105",
+          "chooseCount": 2,
+          "optionPoolSize": 6
+        },
+        {
+          "courseCode": "MUS 201",
+          "chooseCount": 2,
+          "optionPoolSize": 6
+        },
+        {
+          "courseCode": "MUS 220",
+          "chooseCount": 2,
+          "optionPoolSize": 6
+        }
+      ]
+    },
+    "performance_minor": {
+      "minorName": "Performance Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/performance_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "THL 100",
+          "chooseCount": 4,
+          "optionPoolSize": 20
+        }
+      ]
+    },
+    "philosophy_minor": {
+      "minorName": "Philosophy Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "PHL 214",
+          "chooseCount": 1,
+          "optionPoolSize": 2
+        },
+        {
+          "courseCode": "PHL 101",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 110",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 187",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 201",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 202",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 210",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 306",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 333",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 365",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 366",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        },
+        {
+          "courseCode": "PHL 406",
+          "chooseCount": 5,
+          "optionPoolSize": 58
+        }
+      ]
+    },
+    "politics_minor": {
+      "minorName": "Politics Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/politics_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "POL 106",
+          "chooseCount": 3,
+          "optionPoolSize": 17
+        },
+        {
+          "courseCode": "POL 128",
+          "chooseCount": 3,
+          "optionPoolSize": 17
+        },
+        {
+          "courseCode": "POL 129",
+          "chooseCount": 3,
+          "optionPoolSize": 17
+        },
+        {
+          "courseCode": "POL 203",
+          "chooseCount": 3,
+          "optionPoolSize": 17
+        },
+        {
+          "courseCode": "POL 208",
+          "chooseCount": 3,
+          "optionPoolSize": 17
+        }
+      ]
+    },
+    "pro_comm_minor": {
+      "minorName": "Professional Communication Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/pro_comm_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "CMN 230",
+          "chooseCount": 5,
+          "optionPoolSize": 18
+        }
+      ]
+    },
+    "psychology_minor": {
+      "minorName": "Psychology Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/psychology_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "PSY 105",
+          "chooseCount": 1,
+          "optionPoolSize": 2
+        },
+        {
+          "courseCode": "PSY 304",
+          "chooseCount": 4,
+          "optionPoolSize": 50
+        },
+        {
+          "courseCode": "PSY 308",
+          "chooseCount": 4,
+          "optionPoolSize": 50
+        }
+      ]
+    },
+    "sociology_minor": {
+      "minorName": "Sociology Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/sociology_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "SOC 103",
+          "chooseCount": 1,
+          "optionPoolSize": 4
+        }
+      ]
+    },
+    "tourism_minor": {
+      "minorName": "Tourism Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/tourism_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "CRB 100",
+          "chooseCount": 5,
+          "optionPoolSize": 11
+        }
+      ]
+    },
+    "visual_minor": {
+      "minorName": "Visual Studies Minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/visual_minor.html",
+      "requiredMatches": [],
+      "electiveMatches": [
+        {
+          "courseCode": "NPF 188",
+          "chooseCount": 5,
+          "optionPoolSize": 14
+        }
+      ]
+    }
+  }
+}

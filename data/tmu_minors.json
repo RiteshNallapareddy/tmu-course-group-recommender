@@ -1,0 +1,983 @@
+{
+  "meta": {
+    "title": "TMU Minors -- 2026-2027 Calendar",
+    "calendarEdition": "2026-2027",
+    "indexSourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/",
+    "totalMinors": 69,
+    "counts": { "verified": 55, "partial": 13, "needsVerification": 1 }
+  },
+  "minors": [
+    {
+      "name": "Accounting Minor",
+      "slug": "accounting_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/accounting_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["AFA 620"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["ACC 100", "ACC 110", "AFA 100"] },
+        { "chooseCount": 1, "options": ["ACC 406", "ACC 410", "AFA 200"] },
+        { "chooseCount": 3, "options": ["BUS 223", "FIN 501", "FIN 621", "ITM 752", "ITM 618", "LAW 529", "LAW 603"] }
+      ],
+      "programExclusions": ["Accounting and Finance (all majors)", "Business Management, Accounting Major", "Business Management, Finance Major", "Business Management, Law and Business Major"],
+      "notes": "Six courses total; two of the required slots are single-choice from short course lists rather than one fixed course.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Biology Minor",
+      "slug": "biology_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/biology_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["BLG 143", "BLG 144"],
+      "electiveGroups": [
+        { "chooseCount": 4, "options": ["BCH 261", "BCH 361", "BCH 463", "BLG 151", "BLG 230", "BLG 251", "BLG 307", "BLG 311", "BLG 312", "BLG 315", "BLG 316", "BLG 340", "BLG 351", "BLG 400", "BLG 401", "BLG 402", "BLG 409", "BLG 411", "BLG 508", "BLG 567", "BLG 578", "BLG 600", "BLG 605", "BLG 610", "BLG 630", "BLG 667", "BLG 678", "BLG 700", "BLG 785", "BLG 788", "BLG 800", "BLG 802", "BLG 803", "BLG 804", "BLG 805", "BLG 856", "BLG 888", "BMS 600", "BMS 700"] },
+        { "chooseCount": 2, "options": ["BMS 150", "BLG 655", "BLG 699", "BLG 850"] }
+      ],
+      "programExclusions": ["Biology - all options, regular and co-op programs", "Biomedical Sciences - regular and co-op programs"],
+      "notes": "Calendar phrases the elective split as a flexible range (roughly 2-4 from the larger list, 0-2 from the smaller list) that must total four courses alongside the two required courses; exact split recorded here is an approximation. Cannot be combined with the Minor in Biomedical Sciences.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Biomedical Sciences Minor",
+      "slug": "biomedical_sciences_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/biomedical_sciences_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["BLG 143", "BMS 110"],
+      "electiveGroups": [
+        { "chooseCount": 4, "options": ["BCH 261", "BLG 101", "BLG 111", "BLG 151", "BLG 251", "BLG 311", "BLG 315", "BLG 400", "BLG 408", "BLG 411", "BLG 578", "BLG 601", "BLG 655", "BLG 678", "BLG 699", "BLG 701", "BLG 788", "BLG 850", "BMS 451", "BMS 600", "BMS 700"] }
+      ],
+      "programExclusions": ["Biology - all options, regular and co-op programs", "Biomedical Sciences - regular and co-op programs"],
+      "notes": "Cannot be taken together with the Minor in Biology.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Black Studies Minor",
+      "slug": "blackstudies_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/blackstudies_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ENG 142"],
+      "electiveGroups": [
+        { "chooseCount": 3, "options": ["CLD 540", "CRM 250", "CYC 650", "ENG 647", "ENG 653", "FFS 120", "FRE 605", "FSN 610", "FSN 620", "GMS 694", "HIS 107", "HIS 392", "HIS 760", "HIS 854", "HST 633", "IDE 400", "JRN 333", "LIR 204", "MWF 508", "NNS 333", "PHL 220", "PHL 570", "POG 342", "POL 688", "BPM 183", "BPM 484", "SOC 221", "SOC 320", "SOC 530", "SOC 576", "SOC 705", "THF 470"] },
+        { "chooseCount": 2, "options": ["CRB 501", "ENG 620", "FRS 602", "GEO 705", "GMS 693", "HST 222", "SOC 330", "SPS 502"] }
+      ],
+      "programExclusions": [],
+      "notes": "Total is six courses (one required plus five electives); the calendar describes the elective split across the two lists as a flexible range rather than a strict fixed count, so the 3/2 split recorded here is an approximation. Students may take at most two Caribbean Studies courses, at most two courses with the same subject prefix, and at most two HIS/HST courses total.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Business Essentials Minor",
+      "slug": "business_essentials_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/business_essentials_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["BSM 100", "BSM 200", "BSM 600"],
+      "electiveGroups": [
+        { "chooseCount": 3, "options": ["CRI 460", "ENT 500", "ENT 505", "FIN 300", "GMS 450", "GMS 520", "MKT 100"] }
+      ],
+      "programExclusions": ["All Bachelor of Commerce programs in the Ted Rogers School of Management", "Creative Industries program"],
+      "notes": "The three required courses are taught as an integrated, team-taught sequence.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Caribbean Studies Minor",
+      "slug": "caribbean-studies_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/caribbean-studies_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CRB 100"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["CRB 500", "CRB 501", "CRB 502", "CRB 600", "CRB 603", "CRB 605", "CRB 614", "ENG 620", "FRS 602", "GEO 705", "HST 222", "SOC 330", "SPN 804", "SPS 502"] }
+      ],
+      "programExclusions": [],
+      "notes": "Administered by the Department of Sociology.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Chemistry Minor",
+      "slug": "chemistry_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/chemistry_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CHY 113"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["CHY 103", "CHY 102"] },
+        { "chooseCount": 4, "options": ["CHY 142", "CHY 213", "CHY 223", "CHY 242", "CHY 330", "CHY 339", "CHY 344", "CHY 381", "CHY 382", "CHY 399", "CHY 434", "CHY 435", "CHY 436", "CHY 437", "CHY 445", "CHY 449", "CHY 501", "CHY 600", "CHY 706"] }
+      ],
+      "programExclusions": ["Chemistry - all options"],
+      "notes": "Administered by the Department of Chemistry and Biology.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Child and Youth Services Minor",
+      "slug": "child_youth_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/child_youth_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CYC 101", "CYC 405"],
+      "electiveGroups": [
+        { "chooseCount": 4, "options": ["CYC 201", "CYC 302", "CYC 402", "CYC 406", "CYC 505", "CYC 515", "CYC 517", "CYC 602", "CYC 607", "CYC 608", "CYC 800", "CYC 801", "CYC 803", "CYC 805", "CYC 807", "CYC 808", "CYC 809", "CYC 819", "CYC 900", "CYC 905"] }
+      ],
+      "programExclusions": ["Child and Youth Care (degree program)"],
+      "notes": "At most two of CYC 201, CYC 302, or CYC 402 may be counted toward the minor.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Communication Design Minor",
+      "slug": "communication_design_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/communication_design_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["FCD 121", "MPC 101", "CRI 300", "GCM 130"] },
+        { "chooseCount": 1, "options": ["FCD 240", "FSN 203", "FSN 503", "IDF 250", "IRL 100", "IRL 500", "MPC 103", "RTA 938"] },
+        { "chooseCount": 1, "options": ["CMN 279", "CMN 448", "CMN 601", "EID 100", "FCD 551", "JRN 103", "JRN 106", "MPI 602", "NNS 101", "NNS 102", "RTA 102", "RTA 108"] },
+        { "chooseCount": 2, "options": ["CMN 210", "CMN 310", "CRI 520", "FCD 362", "FPN 535", "FCD 558", "FCD 815", "FCD 825", "FPN 330", "GCM 230", "GCM 738"] }
+      ],
+      "programExclusions": ["Interior Design"],
+      "notes": "The first group is presented as 'two of the following' where CRI 300 and GCM 130 are interchangeable as a single option; the exact treatment of that pairing within the choose-2 count is not fully confirmed. Students may count at most two courses from their own major's subject prefix (CMN, GCM, RTA, or MPC/MPI/FPN depending on program) toward the minor.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Computer Science Minor",
+      "slug": "comp_sci_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/comp_sci_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CPS 209"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["CPS 109", "CPS 106"] },
+        { "chooseCount": 4, "options": ["CPS 213", "CPS 305", "CPS 310", "CPS 393", "CPS 406", "CPS 420", "CPS 501", "CPS 506", "CPS 510", "CPS 511", "CPS 530", "CPS 590", "CPS 606", "CPS 607", "CPS 610", "CPS 613", "CPS 615", "CPS 616", "CPS 621", "CPS 630", "CPS 633", "CPS 643", "CPS 688", "CPS 706", "CPS 707", "CPS 710", "CPS 713", "CPS 714", "CPS 716", "CPS 721", "CPS 730", "CPS 731", "CPS 752", "CPS 801", "CPS 811", "CPS 813", "CPS 815", "CPS 822", "CPS 832", "CPS 840", "CPS 841", "CPS 842", "CPS 843", "CPS 844", "CPS 845", "CPS 847", "CPS 853", "BME 501"] }
+      ],
+      "programExclusions": ["Computer Science", "Mathematics and Its Applications (Computer Science Option)"],
+      "notes": "The department publishes optional elective 'streams' as guidance, but completing a specific stream is not required and does not appear on the transcript. BME 501 is an accepted alternative to CPS 501.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Corporate Strategy and Communications Minor",
+      "slug": "corp_strategy_comms",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/corp_strategy_comms.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CMN 413"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["BUS 600", "BUS 800", "BSM 600"] },
+        { "chooseCount": 1, "options": ["CMN 279", "CMN 200"] },
+        { "chooseCount": 1, "options": ["BUS 850", "CMN 306", "ENT 777"] },
+        { "chooseCount": 2, "options": ["CMN 288", "CMN 305", "CMN 313", "CMN 314", "CMN 406", "HTR 941", "ITM 707", "RMG 500"] }
+      ],
+      "programExclusions": ["Professional Communication", "Creative Industries"],
+      "notes": "In the last elective group, at least one of the two chosen courses must carry a CMN prefix.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Criminology Minor",
+      "slug": "criminology_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/criminology_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CRM 100"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["CRM 102", "CRM 101"] },
+        { "chooseCount": 4, "options": ["CRM 200", "CRM 202", "CRM 205", "CRM 206", "CRM 250", "CRM 300", "CRM 304", "CRM 306", "CRM 308", "CRM 316", "CRM 322", "CRM 335", "CRM 400", "POG 440", "CRM 402", "CRM 515", "CRM 601"] }
+      ],
+      "programExclusions": ["Criminology", "Criminology and History Double Major", "Criminology and Politics and Governance Double Major", "Criminology and Sociology Double Major", "Justice Studies"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Curatorial Studies Minor",
+      "slug": "curatorial_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/curatorial_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["HIS 510", "MPC 103", "MPC 201", "NPF 571"] },
+        { "chooseCount": 4, "options": ["FPN 546", "FPN 633", "FSN 711", "HIS 510", "HIS 610", "HIS 710", "IDE 401", "MPC 103", "MPC 201", "MPC 203", "NMA 835", "NPF 515", "NPF 525", "NPF 530", "NPF 554", "NPF 559", "NPF 567", "NPF 569", "NPF 571", "NPF 572", "NPF 700"] }
+      ],
+      "programExclusions": [],
+      "notes": "Courses used to satisfy the first group cannot be double-counted in the second group. Students are advised to consult the School of Image Arts Academic Coordinator before starting the minor.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Cyber Studies Minor",
+      "slug": "cyber_studies",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/cyber_studies.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["CYS 122", "SCI 222"] },
+        { "chooseCount": 1, "options": ["CYS 344", "SCI 444", "ITM 825"] },
+        { "chooseCount": 1, "options": ["CPS 171", "CPS 109", "CYS 119"] },
+        { "chooseCount": 1, "options": ["CPS 571", "CYS 151", "ITM 820"] },
+        { "chooseCount": 1, "options": ["CPS 371", "CPS 706", "CYS 231"] },
+        { "chooseCount": 1, "options": ["CPS 471", "CPS 633", "CRM 350", "CYS 229", "LAW 568"] }
+      ],
+      "programExclusions": ["Cyber Science"],
+      "notes": "Administered by the Faculty of Science. CPS 471 is an antirequisite of both CPS 633 and CYS 229. Choosing CRM 350 or LAW 568 in the last slot may require completing additional prerequisite courses beyond the minor's six-course count.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Disability Studies Minor",
+      "slug": "disability_studies_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/disability_studies_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["DST 501", "INT 902", "SWP 921"] },
+        { "chooseCount": 3, "options": ["DST 300", "DST 500", "DST 504", "DST 502", "DST 503", "DST 506", "DST 507", "PHL 507", "DST 508", "DST 509", "DST 525", "DST 603", "DST 604", "DST 605", "DST 613", "DST 614", "DST 640", "DST 725", "DST 727", "INT 921"] },
+        { "chooseCount": 2, "options": ["CYC 602", "CYC 900", "CRM 402", "CRM 205", "CLD 445", "CLD 315", "CLD 241", "CLD 447", "CLD 206", "FCS 101", "FCS 200", "FCS 400", "GEO 627", "ASL 101", "ASL 201", "ASL 301", "ASL 401", "FNF 100", "FNY 403", "ENH 121", "ENH 712", "OHS 477", "OHS 516", "POH 201", "PSY 102", "PSY 105", "PSY 202", "PSY 302", "PSY 808", "PPA 319", "PPA 125", "POG 315", "SWP 905", "SWP 931", "SWP 950", "SWP 938", "SOC 105", "SOC 107", "SOC 300"] }
+      ],
+      "programExclusions": ["Disability Studies"],
+      "notes": "Within the second group, DST 500/DST 504 count as one interchangeable pair and DST 507/PHL 507 count as one interchangeable pair. In the third group, PSY 102/PSY 105 count as one option and PPA 125/POG 315 count as one option.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "eBusiness Minor",
+      "slug": "ebusiness_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/ebusiness_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ITM 550"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["RMG 910", "RMG 300"] },
+        { "chooseCount": 4, "options": ["ENT 526", "GMS 550", "HTI 746", "ITM 330", "LAW 723", "MKT 300", "MKT 400"] }
+      ],
+      "programExclusions": [],
+      "notes": "Administered by the Ted Rogers School of Information Technology Management.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Economics Minor",
+      "slug": "economics_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/economics_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ECN 104", "ECN 204"],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["ECN 301", "ECN 504"] },
+        { "chooseCount": 2, "options": ["ECN 129", "ECN 189", "ECN 220", "ECN 230", "ECN 320", "ECN 321", "ECN 329", "ECN 340", "ECN 440", "ECN 501", "ECN 502", "ECN 503", "ECN 506", "ECN 507", "ECN 509", "ECN 510", "ECN 511", "ECN 512", "ECN 600", "ECN 601", "ECN 605", "ECN 606", "ECN 610", "ECN 614", "ECN 627", "ECN 630", "ECN 640", "ECN 700", "ECN 702", "ECN 703", "ECN 707", "ECN 715", "ECN 722", "ECN 724", "ECN 725", "ECN 726", "ECN 729", "ECN 801", "ECN 808", "ECN 815"] }
+      ],
+      "programExclusions": ["Business Management - Economics and Management Science Major (regular and co-op)", "Economics and Finance", "Mathematics and Its Applications - Economics Option"],
+      "notes": "The calendar states these two elective groups as flexible ranges (about 1-2 from the first, 2-3 from the second) rather than fixed counts, as long as the combined total is four courses; the split recorded here is an approximation.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "English Minor",
+      "slug": "english_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/english_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ENG 110"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["ENG 101", "ENG 104", "ENG 112", "ENG 142", "ENG 200", "ENG 201", "ENG 203", "ENG 208", "ENG 212", "ENG 222", "ENG 223", "ENG 224", "ENG 230", "ENG 402", "ENG 409", "ENG 413", "ENG 416", "ENG 417", "ENG 421", "ENG 422", "ENG 503", "ENG 505", "ENG 510", "ENG 511", "ENG 515", "ENG 517", "ENG 520", "ENG 522", "ENG 529", "ENG 530", "ENG 531", "ENG 540", "ENG 548", "ENG 550", "ENG 560", "ENG 570", "ENG 580", "ENG 590", "ENG 602", "ENG 610", "ENG 611", "ENG 620", "ENG 621", "ENG 623", "ENG 624", "ENG 632", "ENG 634", "ENG 635", "ENG 640", "ENG 647", "ENG 650", "ENG 653", "ENG 680", "ENG 701", "ENG 703", "ENG 705", "ENG 706", "ENG 707", "ENG 710", "ENG 730", "ENG 921", "ENG 941", "ENG 942"] }
+      ],
+      "programExclusions": ["Arts and Contemporary Studies - English Option", "English", "English and History Double Major", "English and Philosophy Double Major"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Entrepreneurship and Innovation Minor",
+      "slug": "entrepreneurship_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/entrepreneurship_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ENT 601"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["ENT 526", "ENT 524"] },
+        { "chooseCount": 1, "options": ["BSM 100", "ENT 500", "ENT 725"] },
+        { "chooseCount": 3, "options": ["ACC 607", "BSM 200", "EID 100", "ENG 520", "ENT 100", "ENT 401", "ENT 501", "ENT 505", "ENT 511", "ENT 527", "ENT 727", "ENT 801", "FIN 502", "GEO 719", "GMS 422", "GMS 701", "GMS 750", "JRN 842", "LAW 525", "LAW 603", "MHR 741", "MKT 504", "MKT 723", "MKT 730", "MKT 731", "PLG 710", "RMG 100", "RMG 200", "RTA 989", "SSH 400"] }
+      ],
+      "programExclusions": ["Business Management - Entrepreneurship and Innovation Major"],
+      "notes": "Any CMN-prefix course is also accepted in the third elective group. BSM 100, BSM 200, and ENT 505 are not open to students already in a Ted Rogers School of Management program.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Environmental Health Minor",
+      "slug": "environmental_health_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/environmental_health_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ENH 122", "OHS 508"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["ENH 220", "ENH 825"] },
+        { "chooseCount": 3, "options": ["ENH 324", "ENH 325", "ENH 333", "ENH 524", "ENH 610", "OHS 301", "OHS 314", "OHS 322", "OHS 421", "OHS 422", "OHS 621", "OHS 623", "OHS 709", "OHS 800", "POH 201", "POH 400", "POH 407", "POH 410", "POH 430", "PUB 301", "PUB 409", "PUB 501", "PUB 508", "PUB 607", "PUB 609"] }
+      ],
+      "programExclusions": ["Occupational Health and Safety - all options", "Public Health - all options"],
+      "notes": "The calendar phrases the second elective group as a 2-3 course range and the first as 'at least 1'; three-and-one is used here as the only combination confirmed to reach the six-course total, but the exact split is not fully certain.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Ethics Minor",
+      "slug": "ethics_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/ethics_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["PHL 400", "PHL 503", "PHL 603", "PHL 614"] },
+        { "chooseCount": 5, "options": ["BUS 221", "BUS 223", "CRM 322", "PHL 302", "PHL 306", "PHL 307", "PHL 334", "PHL 400", "PHL 406", "PHL 420", "PHL 444", "PHL 449", "PHL 503", "PHL 509", "PHL 530", "PHL 602", "PHL 603", "PHL 612", "PHL 614"] }
+      ],
+      "programExclusions": ["Arts and Contemporary Studies - Philosophy Option", "English and Philosophy Double Major", "History and Philosophy Double Major", "Philosophy"],
+      "notes": "Administered by the Department of Philosophy and Music. PHL 302 and PHL 509 are antirequisites of each other.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Events and Live Entertainment Management Minor",
+      "slug": "events_entertainment_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/events_entertainment_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["HTT 610"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["CRI 500", "GCM 375"] },
+        { "chooseCount": 4, "options": ["CMN 288", "CMN 305", "CMN 313", "CRI 430", "CRI 530", "CRI 540", "CRI 620", "CRI 840", "HTL 503", "HTT 501", "HTT 605", "HTT 607", "MKT 100", "RMG 922", "SOC 202", "SOC 932"] }
+      ],
+      "programExclusions": ["Hospitality and Tourism Management", "Creative Industries"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Environmental and Urban Sustainability Minor",
+      "slug": "eus_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/eus_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["EUS 102", "EUS 202"],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["EUS 301", "EUS 450", "EUS 550", "EUS 650", "EUS 750", "EUS 760", "EUS 850", "EUS 860", "EUS 870"] },
+        { "chooseCount": 2, "options": ["ASC 200", "ASC 855", "BLG 340", "BLG 401", "CHY 423", "ECN 502", "ECN 510", "ECN 511", "ENH 424", "ENH 524", "ENH 825", "EUS 180", "GEO 131", "GEO 311", "GEO 411", "GEO 514", "GEO 655", "GEO 671", "GEO 711", "HIS 828", "HST 788", "HTT 510", "IDE 309", "LAW 535", "OHS 322", "OHS 422", "PLE 715", "PLE 835", "POG 415", "POL 377", "REM 420", "SOC 708"] }
+      ],
+      "programExclusions": ["Environmental and Urban Sustainability (major program)"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Family Supports and Community Practice Minor",
+      "slug": "family_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/family_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CLD 435"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["CLD 332", "CLD 447", "CLD 448", "CLD 449", "CYC 800", "FNP 400", "DST 99A", "DST 99B", "FNY 403", "INT 900", "CYC 705", "INT 901", "INT 902", "DST 501", "INT 904", "INT 905", "INT 906", "FNF 400", "INT 907", "INT 908", "INT 910", "INT 911", "INT 912", "POL 106", "POL 501", "POL 511", "SOC 108", "SOC 203", "SOC 501", "SOC 502", "SWP 923", "SOC 507", "SOC 603", "SOC 605", "SOC 606", "SOC 701", "SOC 703", "SWP 435"] }
+      ],
+      "programExclusions": [],
+      "notes": "Several list entries are interchangeable pairs (e.g., FNP 400 or DST 99A/B; INT 900 or CYC 705; INT 901/INT 902/DST 501 as one slot; INT 906 or FNF 400; SOC 502 or SWP 923) rather than independent options; DST 99A/B is a two-term course counted as one single-term credit toward the minor. Early Childhood Studies students may count at most two CLD-prefix courses.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Fashion Studies Minor",
+      "slug": "fashion_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/fashion_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["FSN 223"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["FSN 105", "FSN 123", "FSN 199"] },
+        { "chooseCount": 4, "options": ["FFS 102", "FFS 110", "FFS 120", "FFS 200", "FFS 402", "FFS 511", "FFS 702", "FFS 710", "FSN 132", "FSN 203", "FSN 224", "FSN 232", "FSN 302", "FSN 304", "FSN 400", "FSN 503", "FSN 504", "FSN 508", "FSN 509", "FSN 510", "FSN 525", "FSN 555", "FSN 556", "FSN 600", "FSN 605", "FSN 610", "FSN 620", "FSN 631", "FSN 704", "FSN 706"] }
+      ],
+      "programExclusions": ["Fashion Communication", "Fashion Design", "Fashion (students admitted Fall 2020 and after)"],
+      "notes": "Administered by the School of Fashion.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Film (Cinema) Studies Minor",
+      "slug": "film_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/film_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["MPF 290"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["HST 119", "HST 219", "MPF 327", "MPF 427", "NPF 188", "NPF 505", "NPF 520", "NPF 563", "NPF 564", "NPF 565", "NPF 566", "NPF 605", "PHL 710", "POL 128"] }
+      ],
+      "programExclusions": ["Image Arts, Film"],
+      "notes": "Students are advised to consult the School of Image Arts for further guidance.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Finance Minor",
+      "slug": "finance_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/finance_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["FIN 300", "FIN 401", "FIN 501", "FIN 502"],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["ECN 506", "ECN 606", "FIN 650", "FIN 750", "FIN 205", "FIN 510", "FIN 512", "FIN 601", "FIN 611", "FIN 612", "FIN 621", "FIN 631", "FIN 699", "FIN 701", "FIN 710", "FIN 711", "FIN 800", "FIN 801", "FIN 812", "INP 915", "PPA 303", "REM 400"] }
+      ],
+      "programExclusions": ["Accounting and Finance (all majors)", "Financial Mathematics"],
+      "notes": "Hospitality and Tourism Management students substitute HTA 602 for FIN 300. Students who previously took AFF-prefix courses and left the School of Accounting and Finance may be able to substitute those courses for FIN courses with department approval.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Food, Culture and Society Minor",
+      "slug": "food_culture_and_society_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/food_culture_and_society_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 3, "options": ["CMN 460", "GEO 509", "HST 430", "LIR 302", "SOC 558", "SOC 808", "SWP 950"] },
+        { "chooseCount": 3, "options": ["FRE 302", "FRE 702", "GEO 716", "HTF 505", "HTF 506", "HTH 100", "SOC 506", "SOC 708", "SOC 931", "SPN 302"] }
+      ],
+      "programExclusions": [],
+      "notes": "Administered by the Department of Sociology.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "French Minor",
+      "slug": "french_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/french_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["FRE 402", "FRE 502", "FRE 505", "FRE 510", "FRE 515", "FRE 602", "FRE 605", "FRE 610", "FRE 701", "FRE 801", "FRE 805", "FRE 900"] },
+        { "chooseCount": 4, "options": ["FRE 301", "FRE 302", "FRE 303", "FRE 401", "FRE 402", "FRE 501", "FRE 502", "FRE 503", "FRE 504", "FRE 505", "FRE 507", "FRE 510", "FRE 515", "FRE 601", "FRE 602", "FRE 603", "FRE 604", "FRE 605", "FRE 607", "FRE 608", "FRE 609", "FRE 610", "FRE 701", "FRE 702", "FRE 704", "FRE 706", "FRE 707", "FRE 709", "FRE 801", "FRE 805", "FRE 900", "FRE 901", "FRE 903"] }
+      ],
+      "programExclusions": ["Arts and Contemporary Studies - French Option", "Language and Intercultural Relations - French Stream"],
+      "notes": "Starting course level is determined by a placement test; sequencing/prerequisite rules may limit concurrent enrolment in some terms. Early consultation with the Department of Languages, Literatures, and Cultures is recommended.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Geographic Analysis Minor",
+      "slug": "geographic_analysis_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geographic_analysis_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["GEO 151", "PLG 300"] },
+        { "chooseCount": 1, "options": ["GEO 581", "GEO 719"] },
+        { "chooseCount": 4, "options": ["GEO 131", "GEO 110", "GEO 231", "GEO 281", "GEO 301", "GEO 302", "GEO 351", "GEO 419", "GEO 527", "GEO 530", "GEO 551", "GEO 627", "GEO 681", "GEO 691"] }
+      ],
+      "programExclusions": ["Geographic Analysis"],
+      "notes": "Students may declare only one of the Geography minor or the Geographic Analysis minor, not both.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Geography Minor",
+      "slug": "geography_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/geography_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["GEO 131", "GEO 110", "GEO 151", "PLG 300"] },
+        { "chooseCount": 2, "options": ["GEO 106", "GEO 108", "GEO 131", "GEO 110", "GEO 151", "PLG 300", "GEO 206", "GEO 208", "GEO 210", "GEO 231", "GEO 281", "GEO 312", "GEO 351"] },
+        { "chooseCount": 3, "options": ["EUS 180", "GEO 311", "GEO 505", "GEO 507", "GEO 509", "GEO 527", "GEO 530", "GEO 551", "GEO 553", "GEO 581", "GEO 605", "GEO 607", "GEO 609", "GEO 627", "GEO 655", "GEO 681", "GEO 691", "GEO 702", "GEO 711", "GEO 716", "GEO 793", "GEO 802", "GEO 803", "GEO 811"] }
+      ],
+      "programExclusions": ["Geographic Analysis"],
+      "notes": "The 'foundation' requirement (one of GEO 131/GEO 110, and one of GEO 151/PLG 300) is presented ambiguously on the calendar page; it may actually require one course from each of two separate pairs rather than one course chosen freely from all four combined. It is recorded here as a single choose-one-of-four group because that is the only reading that keeps the total at six courses; this is not fully confirmed. Students may declare only one of the Geography or Geographic Analysis minor. A course counted toward the foundation cannot also be counted in the second group.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Global Management Minor",
+      "slug": "global_mgt_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_mgt_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["FIN 621", "GMS 522", "GMS 601", "GMS 723", "GMS 724", "GMS 802", "GMS 850", "HIS 590", "LAW 724", "MHR 700"] },
+        { "chooseCount": 1, "options": ["GMS 690", "GMS 691", "GMS 692", "GMS 693", "GMS 694", "GMS 695"] }
+      ],
+      "programExclusions": ["Business Management - Global Management Studies Major, regular and co-op programs"],
+      "notes": "Administered by the Global Management Studies Department, Ted Rogers School of Management.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Global Narratives Minor",
+      "slug": "global_narratives_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_narratives_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ENG 110", "RTA 988"],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["ENG 203", "ENG 223", "ENG 408", "ENG 413", "ENG 416", "ENG 417", "ENG 620", "ENG 621", "ENG 623", "ENG 640", "ENG 921", "ENG 942"] },
+        { "chooseCount": 2, "options": ["RTA 918", "RTA 920", "NMA 928", "RTA 938", "NMA 939"] }
+      ],
+      "programExclusions": [],
+      "notes": "English majors may count at most three ENG-prefix courses (including the required ENG 110) toward the minor; Media Production students may count at most three RTA-prefix courses (including the required RTA 988).",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Global Politics and Development Minor",
+      "slug": "global_politics_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/global_politics_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["POL 208", "POG 225"] },
+        { "chooseCount": 2, "options": ["POG 323", "POL 540"] },
+        { "chooseCount": 3, "options": ["ECN 220", "GEO 108", "GEO 208", "HIS 490", "POG 240", "POG 324", "POG 327", "POG 328", "POG 329", "POG 331", "POG 336", "POG 342", "POG 343", "POG 370", "POG 423", "POG 424", "POG 426", "POG 427", "POG 428", "POG 431", "POG 432", "POG 443", "POG 447", "POL 501", "POL 601", "POL 607", "POL 609", "POL 613", "POL 688", "SOC 803"] }
+      ],
+      "programExclusions": ["Politics and Governance", "Criminology and Politics and Governance Double Major", "History and Politics and Governance Double Major", "Politics and Governance and Sociology Double Major"],
+      "notes": "The second and third elective groups are stated as ranges (about 1-2 and 3-4 courses respectively) that must sum to five total electives; the split recorded here (2 and 3) is one valid reading but not the only one. SOC 803 requires approval from the Sociology department.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Health Services Management Minor",
+      "slug": "health_services_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/health_services_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["HSM 301", "LAW 326"],
+      "electiveGroups": [
+        { "chooseCount": 4, "options": ["HIM 301", "HIM 303", "HIM 305", "HIM 306", "HIM 307", "HIM 404", "HSM 307", "HSM 308", "HSM 309", "HSM 310", "HSM 330", "HSM 407", "HSM 437", "ITM 750", "MHR 523", "HTH 503", "PHL 302", "PHL 509"] }
+      ],
+      "programExclusions": ["Health Administration", "Business Management - Health Services Management Major"],
+      "notes": "MHR 523/HTH 503 count as one interchangeable option, as do PHL 302/PHL 509.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "History Minor",
+      "slug": "history_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/history_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["HIS 401", "HIS 500", "HIS 501", "HIS 502", "HIS 505", "HIS 755"] },
+        { "chooseCount": 2, "options": ["HIS 101", "HIS 104", "HIS 105", "HIS 106", "HIS 107", "HIS 265", "HIS 275", "HIS 277", "HIS 316", "HIS 348", "HIS 350", "HIS 392", "HIS 400", "HIS 461", "HIS 462", "HIS 475", "HIS 490"] },
+        { "chooseCount": 3, "options": ["HIS 510", "HIS 541", "HIS 556", "HIS 559", "HIS 560", "HIS 561", "HIS 590", "HIS 610", "HIS 615", "HIS 620", "HIS 630", "HIS 656", "HIS 661", "HIS 662", "HIS 677", "HIS 678", "HIS 696", "HIS 710", "HIS 742", "HIS 760", "HIS 762", "HIS 790", "HIS 826", "HIS 828", "HIS 830", "HIS 845", "HIS 854", "HIS 886", "HIS 898"] }
+      ],
+      "programExclusions": ["Arts and Contemporary Studies (Anthropology Studies or History Option)", "English and History Double Major", "History and Philosophy Double Major", "History", "Criminology and History Double Major", "History and Politics and Governance Double Major", "History and Sociology Double Major"],
+      "notes": "Up to two HST-prefix courses (numbered 100-499) may substitute in the second group, and up to one HST-prefix course (numbered 500-899) may substitute in the third group.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Human Resources Management Minor",
+      "slug": "human_resources_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/human_resources_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["MHR 520"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["MHR 405", "HTH 601"] },
+        { "chooseCount": 1, "options": ["MHR 523", "HTH 503", "CRI 700"] },
+        { "chooseCount": 3, "options": ["LAW 529", "MHR 522", "MHR 600", "MHR 623", "MHR 671", "MHR 711", "MHR 721", "MHR 733", "MHR 749", "MHR 849"] }
+      ],
+      "programExclusions": ["Business Management - Human Resources Management Major (regular and co-operative options)"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Indigenous Thought Minor",
+      "slug": "indigenous_thought_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/indigenous_thought_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["PHL 535"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["ENG 203", "ENG 650", "GEO 311", "GEO 711", "HAU 100", "HAU 400", "MHK 101", "MHK 201", "PHL 565", "SOC 553", "SOC 580"] }
+      ],
+      "programExclusions": [],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Information Technology Management Minor",
+      "slug": "itm_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/itm_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["ITM 100", "ITM 102"] },
+        { "chooseCount": 5, "options": ["ITM 200", "ITM 207", "ITM 301", "ITM 305", "ITM 330", "ITM 410", "ITM 415", "ITM 430", "ITM 445", "ITM 450", "ITM 500", "ITM 501", "ITM 610", "ITM 618", "ITM 620", "ITM 706", "ITM 707", "ITM 711", "ITM 735", "ITM 740", "ITM 745", "ITM 750", "ITM 751", "ITM 752", "ITM 760", "ITM 775", "ITM 780", "ITM 795", "ITM 820", "ITM 825", "ITM 830", "ITM 835", "GMS 450", "CPS 714"] }
+      ],
+      "programExclusions": ["Business Technology Management - all options"],
+      "notes": "GMS 450 or CPS 714 may substitute for ITM 750. Optional elective 'focus' areas (Cybersecurity; Artificial Intelligence and Analytics; Digital Transformation) are offered as guidance only and do not appear on the transcript.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Innovation and Zone Learning Minor",
+      "slug": "innovationzone_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/innovationzone_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ZON 100", "ZON 200"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["FCD 815", "ENT 500", "SCI 888"] },
+        { "chooseCount": 1, "options": ["CPS 101", "CPS 109", "CPS 106", "CPS 847", "CRI 300", "JRN 555", "JRN 843", "FCD 222", "NMA 222", "FCD 962", "NMA 962", "RTA 102", "RTA 108", "NMA 107", "NMA 223", "NMA 321"] },
+        { "chooseCount": 1, "options": ["CRI 500", "CRI 780", "PSY 217", "SSH 100", "SSH 502", "SSH 505"] }
+      ],
+      "programExclusions": [],
+      "notes": "Students must take at least one course from each of two elective categories (Ideation and Prototyping; Empathy and Growth); the exact source of the remaining elective slot needed to reach six total courses is not fully confirmed from this page. RTA School of Media students may count at most three RTA-coded (or RTA-cross-listed FCD) courses toward the minor. Students should contact the Office of Zone Learning for current Zone entry requirements.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Labour and Employment Relations Minor",
+      "slug": "labour_employment_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/labour_employment_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["MHR 520", "MHR 522"],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["MHR 405", "MHR 523", "MHR 600", "MHR 711", "MHR 721", "LAW 529", "LAW 606"] },
+        { "chooseCount": 2, "options": ["ECN 605", "OHS 208", "POG 315", "PPA 125", "PPA 319", "SOC 472", "SOC 501", "SOC 606"] }
+      ],
+      "programExclusions": [],
+      "notes": "POG 315/PPA 125 count as one interchangeable option, and SOC 472/SOC 501 count as one interchangeable option, within the second group. At least one of ECN 605, PPA 319, SOC 472, or SOC 501 must be included.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Law Minor",
+      "slug": "law_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/law_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["LAW 122", "LAW 603"],
+      "electiveGroups": [
+        { "chooseCount": 3, "options": ["BUS 223", "LAW 321", "LAW 326", "LAW 401", "LAW 402", "LAW 525", "LAW 529", "LAW 568", "LAW 601", "LAW 602", "LAW 535", "LAW 573", "LAW 580", "LAW 604", "LAW 605", "LAW 606", "LAW 607", "LAW 703", "LAW 723", "LAW 724", "LAW 725"] },
+        { "chooseCount": 1, "options": ["ECN 321", "ENH 121", "ENH 721", "OHS 208", "PPA 301"] }
+      ],
+      "programExclusions": ["Business Management - Law and Business Major (regular and co-operative options)"],
+      "notes": "Calendar title for this page is 'Minor in Business Law'. The calendar states the two elective groups as ranges (roughly 3-4 courses from the first list and 0-1 from the second) that together must total four courses; the split recorded here (3 and 1) is one valid reading but not the only one.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "LGBTQ2S+ Studies Minor",
+      "slug": "lgbtq2s_studies_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/lgbtq2s_studies_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["HST 375", "PHL 320", "SOC 350"] },
+        { "chooseCount": 5, "options": ["CMN 230", "CRM 515", "CRM 205", "DST 300", "DST 605", "ENG 610", "ENG 941", "FSN 605", "GEO 655", "HIS 475", "HST 375", "HST 627", "HST 658", "IDE 450", "NNS 410", "JRN 415", "PHL 320", "PHL 340", "POG 303", "POL 510", "PSY 304", "PSY 535", "PSY 621", "PSY 550", "SOC 350", "SOC 633", "SPS 503"] }
+      ],
+      "programExclusions": [],
+      "notes": "Students may count at most two courses from any single subject-prefix discipline toward the minor (for History, this means at most two HIS/HST courses total). Several list entries are interchangeable pairs (e.g., CRM 515/CRM 205, ENG 610/ENG 941, NNS 410/JRN 415, PSY 304/PSY 535, PSY 621/PSY 550), and a course already used to satisfy the required course cannot be double-counted in the elective list.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Marketing Minor",
+      "slug": "marketing_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/marketing_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["MKT 300"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["MKT 100", "HTM 302"] },
+        { "chooseCount": 4, "options": ["MKT 400", "RMG 302", "MKT 500", "HTR 741", "RMG 700", "MKT 504", "MKT 510", "MKT 535", "MKT 600", "MKT 700", "MKT 723", "MKT 730", "MKT 731", "MKT 828", "MKT 829", "MKT 850"] }
+      ],
+      "programExclusions": ["Business Management - Marketing Management Major (regular and co-operative options)"],
+      "notes": "MKT 400/RMG 302 count as one interchangeable option, and MKT 500/HTR 741/RMG 700 count as one interchangeable option, within the elective list. Optional themed pathways (Generalist, Sports Marketing, Social Marketing, Marketing Research, Marketing Innovation) are offered as course-selection guidance only.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Mathematics Minor",
+      "slug": "mathematics_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/mathematics_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["MTH 110", "MTH 314"] },
+        { "chooseCount": 1, "options": ["MTH 312", "MTH 330", "MTH 350", "MTH 425"] },
+        { "chooseCount": 4, "options": ["MTH 210", "MTH 404", "MTH 410", "MTH 430", "MTH 480", "MTH 500", "MTH 501", "MTH 503", "MTH 510", "MTH 514", "MTH 525", "MTH 540", "MTH 560", "MTH 600", "MTH 601", "MTH 603", "MTH 607", "MTH 609", "MTH 617", "MTH 630", "MTH 640", "MTH 642", "MTH 700", "MTH 707", "MTH 710", "MTH 712", "MTH 714", "MTH 718", "MTH 719", "MTH 732", "MTH 800", "MTH 810", "MTH 814", "MTH 816", "MTH 817", "MTH 818", "MTH 820", "MTH 825"] }
+      ],
+      "programExclusions": ["Financial Mathematics - all options", "Mathematics and Its Applications - all options"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Middle East and North Africa (MENA) Studies Minor",
+      "slug": "mena_studies_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/mena_studies_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["ARB 101", "ARB 201", "ARB 301", "ARB 401", "ARB 402", "ARB 501", "ARB 601"] },
+        { "chooseCount": 1, "options": ["ACS 220", "HIS 461", "HIS 462", "REL 215", "REL 225"] },
+        { "chooseCount": 4, "options": ["ENG 623", "FRS 606", "GEO 522", "GMS 695", "HIS 559", "HIS 560", "HIS 561", "HIS 957", "HST 506", "HST 522", "HST 777", "HST 786", "HST 788", "PHL 622", "PHL 639", "SOC 885"] }
+      ],
+      "programExclusions": [],
+      "notes": "The calendar states each of the three groups as a range (roughly 1-2, 1-2, and 2-4 courses respectively) that must total six courses combined; the split recorded here (1, 1, 4) is one valid reading but not the only one. Students may count at most two courses from any single subject-prefix discipline (maximum two History-coded courses). HIS 559 and HST 506 are antirequisites of each other. Administered by the Department of History.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Music and Culture Minor",
+      "slug": "music_culture_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/music_culture_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["MUS 101", "MUS 106"] },
+        { "chooseCount": 2, "options": ["MUS 101", "MUS 106", "MUS 105", "MUS 201", "MUS 211", "MUS 220"] },
+        { "chooseCount": 3, "options": ["MUS 401", "MUS 501", "MUS 503", "MUS 505", "MUS 507", "MUS 520", "CLD 315", "PSY 701"] }
+      ],
+      "programExclusions": [],
+      "notes": "The calendar lists the second and third groups as 'minimum two' each, which sums to only five courses together with the required-course choice; the third group's count is increased to three here so the total reaches the standard six-course minor, but this is not fully confirmed from the page. A course used to satisfy the required choice (MUS 101 or MUS 106) cannot also be counted in the second elective group. Administered by the Department of Philosophy and Music.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "News Studies Minor",
+      "slug": "news_studies_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/news_studies_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["NNS 101", "JRN 103"] },
+        { "chooseCount": 3, "options": ["FCD 204", "FCD 842", "NNS 102", "JRN 105", "NNS 103", "JRN 215", "NNS 204", "JRN 204", "NNS 333", "JRN 333", "NNS 344", "JRN 344", "NNS 400", "JRN 400", "NNS 401", "JRN 401", "NNS 402", "JRN 402", "NNS 406", "JRN 406", "NNS 410", "JRN 415", "NNS 412", "JRN 412", "NNS 419"] },
+        { "chooseCount": 2, "options": ["NNS 350", "JRN 350", "NNS 500", "JRN 500", "NNS 502", "JRN 502", "NNS 504", "JRN 504", "FSN 304", "NNS 505", "JRN 505", "NNS 506", "JRN 506", "NNS 507", "JRN 507", "NNS 508", "JRN 508", "NNS 509", "JRN 509", "NNS 510", "JRN 510", "NNS 512", "JRN 512", "RTA 233", "NNS 525", "JRN 525"] }
+      ],
+      "programExclusions": ["Journalism"],
+      "notes": "Most NNS-prefix courses have an equivalent JRN-prefix course that may be substituted.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Nonprofit and Voluntary Sector Management Minor",
+      "slug": "nonprofit_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/nonprofit_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["INP 900", "INP 901"],
+      "electiveGroups": [
+        { "chooseCount": 4, "options": ["INP 912", "MKT 100", "INP 913", "MHR 650", "INP 902", "INP 910", "INP 911", "INP 914", "INP 915", "INP 916", "INP 920"] }
+      ],
+      "programExclusions": [],
+      "notes": "INP 912/MKT 100 and INP 913/MHR 650 are interchangeable pairs within the elective list. Administered by the Faculty of Arts.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Occupational Health and Safety Minor",
+      "slug": "occupational_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/occupational_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["OHS 508"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["ENH 121", "ENH 220"] },
+        { "chooseCount": 4, "options": ["ENH 825", "OHS 301", "OHS 314", "OHS 322", "OHS 323", "OHS 421", "OHS 422", "OHS 477", "OHS 509", "OHS 516", "OHS 523", "OHS 621", "OHS 623", "OHS 709", "OHS 800", "OHS 806", "OHS 811"] }
+      ],
+      "programExclusions": ["Occupational Health and Safety (all options)", "Public Health (all options)"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Organizational Leadership Minor",
+      "slug": "org_leadership_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/org_leadership_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["MHR 640"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["MHR 405", "HTH 601"] },
+        { "chooseCount": 4, "options": ["MHR 650", "MHR 700", "MHR 721", "MHR 741", "MHR 841", "MHR 850"] }
+      ],
+      "programExclusions": ["Business Management - Human Resources Management Major (regular and co-operative options)"],
+      "notes": "Administered by the Human Resources and Organizational Behaviour Department, Ted Rogers School of Business Management.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Performance Minor",
+      "slug": "performance_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/performance_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["PFZ 100", "PFC 100"],
+      "electiveGroups": [
+        { "chooseCount": 4, "options": ["FCD 316", "FCD 817", "FCD 827", "PFC 101", "PFC 221", "PFC 236", "PFC 246", "PFC 256", "PFC 312", "PFC 334", "PFC 402", "PFC 470", "PFD 404", "PFZ 203", "PFZ 270", "PFZ 370", "PFZ 371", "PFZ 372", "PFZ 471", "THL 100"] }
+      ],
+      "programExclusions": ["Performance: Acting", "Performance: Dance", "Performance: Design and Production", "Creative Industries"],
+      "notes": "Students are advised to consult the School of Performance Academic Coordinator before starting coursework.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Philosophy Minor",
+      "slug": "philosophy_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/philosophy_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["SSH 105", "PHL 214"] },
+        { "chooseCount": 5, "options": ["PHL 101", "PHL 102", "PHL 110", "PHL 187", "PHL 201", "PHL 202", "PHL 210", "PHL 212", "PHL 302", "PHL 306", "PHL 307", "PHL 320", "PHL 333", "PHL 365", "PHL 366", "PHL 400", "PHL 401", "PHL 404", "PHL 405", "PHL 406", "PHL 420", "PHL 430", "PHL 449", "PHL 500", "PHL 501", "PHL 503", "PHL 504", "PHL 505", "PHL 507", "PHL 509", "PHL 520", "PHL 521", "PHL 522", "PHL 535", "PHL 544", "PHL 547", "PHL 550", "PHL 551", "PHL 552", "PHL 561", "PHL 570", "PHL 580", "PHL 585", "PHL 603", "PHL 605", "PHL 606", "PHL 611", "PHL 612", "PHL 614", "PHL 622", "PHL 639", "PHL 648", "PHL 661", "PHL 708", "PHL 709", "PHL 710", "PHL 810", "PHL 923"] }
+      ],
+      "programExclusions": ["Arts and Contemporary Studies, Philosophy Option", "English and Philosophy Double Major", "History and Philosophy Double Major", "Philosophy (major program)"],
+      "notes": "PHL 214 and SSH 105 are antirequisites of each other, as are PHL 302 and PHL 509.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Photography Media Arts Minor",
+      "slug": "photography_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/photography_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["FPN 330", "MPC 103", "MPC 201", "MPC 203", "MPS 301"] },
+        { "chooseCount": 4, "options": ["FPN 330", "FPN 340", "FPN 506", "FPN 543", "MPC 103", "MPC 201", "MPC 203", "MPS 106", "MPS 107", "MPS 206", "MPS 301", "MPS 306", "MPS 307", "MPS 407", "MPS 507", "MPS 607", "NPF 525", "NPF 530", "NPF 549", "NPF 568", "NPF 569", "NPF 574", "NPF 700"] }
+      ],
+      "programExclusions": ["Image Arts, Photography Media Arts"],
+      "notes": "Administered by the School of Image Arts.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Physics Minor",
+      "slug": "physics_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/physics_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["PCS 120", "PCS 130", "PCS 125", "PCS 211"] },
+        { "chooseCount": 1, "options": ["PCS 228", "PCS 300"] },
+        { "chooseCount": 3, "options": ["PCS 107", "PCS 110", "PCS 224", "PCS 227", "PCS 228", "PCS 230", "PCS 300", "PCS 335", "PCS 350", "PCS 352", "PCS 358", "PCS 401", "PCS 510", "PCS 521", "PCS 622", "PCS 624", "PCS 700", "PCS 724", "PCS 800", "PCS 810"] }
+      ],
+      "programExclusions": ["Biology - Biophysics Option", "Chemistry - Applied Physics Option", "Medical Physics"],
+      "notes": "The foundational two courses must be taken as a matched pair, not chosen independently: Engineering students take PCS 125 and PCS 211, while Science students take PCS 120 and PCS 130. Administered by the Department of Physics.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Politics Minor",
+      "slug": "politics_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/politics_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 3, "options": ["POG 100", "POG 110", "POL 102", "PPA 120", "POG 210", "POL 101", "POG 214", "PPA 211", "POG 225", "POG 235", "POG 240", "POG 320", "POL 106", "POL 128", "POL 129", "POL 203", "POL 208"] },
+        { "chooseCount": 3, "options": ["INP 900", "POG 310", "PPA 121", "POG 313", "POG 315", "PPA 125", "POG 316", "POG 317", "POG 323", "POG 324", "POG 410", "PPA 122", "POL 123", "POG 411", "POG 412", "POG 415", "POG 416", "PPA 425", "POG 417", "POG 327", "POG 328", "POG 423", "POG 424", "POG 425", "POG 426", "POG 427", "POG 331", "POG 335", "POG 430", "POG 431", "POG 432", "POG 341", "POG 342", "POG 343", "POG 440", "CRM 400", "PPA 124", "POG 442", "POG 443", "POG 444", "POG 446", "POG 447", "POG 494", "POL 377", "POL 501", "POL 507", "POL 510", "POL 511", "POL 540", "POL 588", "POL 601", "POL 607", "POL 609", "POL 613", "POL 620", "POL 688", "POL 720"] }
+      ],
+      "programExclusions": ["Politics and Governance", "Public Administration and Governance", "Criminology and Politics and Governance Double Major", "History and Politics and Governance Double Major", "Politics and Governance and Sociology Major"],
+      "notes": "This minor has no fixed required courses; all six courses come from two large elective groups, each stated on the calendar as a 2-4 course range (recorded here at 3 and 3 as an estimate). Many individual list entries are themselves interchangeable groups of 2-3 equivalent courses (e.g., 'POG 110 or POL 102 or PPA 120') rather than independent options, and a maximum of two asterisked/cross-listed POL courses may be counted across the groups. The exact structure could not be confidently resolved from the calendar page.",
+      "verificationStatus": "NEEDS_VERIFICATION"
+    },
+    {
+      "name": "Professional Communication Minor",
+      "slug": "pro_comm_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/pro_comm_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CMN 279"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["CMN 230", "CMN 288", "CMN 305", "CMN 306", "CMN 313", "CMN 314", "CMN 315", "CMN 316", "CMN 317", "CMN 406", "CMN 413", "CMN 414", "CMN 443", "CMN 447", "CMN 450", "CMN 460", "CMN 462", "CMN 601"] }
+      ],
+      "programExclusions": ["Professional Communication (major program)", "Public Relations Minor (cannot be taken concurrently)"],
+      "notes": "CMN 100, CMN 114, or CMN 300 may substitute for CMN 279 depending on program.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Psychology Minor",
+      "slug": "psychology_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/psychology_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["PSY 202"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["PSY 102", "PSY 105"] },
+        { "chooseCount": 4, "options": ["PSY 124", "PSY 209", "PSY 214", "PSY 215", "PSY 217", "PSY 300", "PSY 302", "PSY 304", "PSY 308", "PSY 324", "PSY 325", "PSY 335", "PSY 402", "PSY 412", "PSY 434", "PSY 502", "PSY 504", "PSY 505", "PSY 514", "PSY 518", "PSY 535", "PSY 544", "PSY 550", "PSY 560", "PSY 602", "PSY 605", "PSY 606", "PSY 607", "PSY 614", "PSY 615", "PSY 620", "PSY 621", "PSY 622", "PSY 654", "PSY 682", "PSY 701", "PSY 706", "PSY 707", "PSY 712", "PSY 713", "PSY 714", "PSY 721", "PSY 802", "PSY 805", "PSY 806", "PSY 807", "PSY 808", "PSY 813", "PSY 940", "PSY 941"] }
+      ],
+      "programExclusions": ["Psychology (major program)"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Public Administration Minor",
+      "slug": "public_admin_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/public_admin_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["PPA 101", "PPA 102"],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["POL 101", "POL 102", "PPA 120", "PPA 121", "POG 310", "PPA 122", "POL 123", "POG 410", "PPA 124", "POG 440", "PPA 125", "POG 315", "PPA 319", "PPA 425", "POG 416"] },
+        { "chooseCount": 2, "options": ["PPA 211", "POG 214", "PPA 301", "PPA 303", "INP 915", "PPA 335", "PPA 401", "PPA 402", "PPA 403", "PPA 411", "PPA 501"] }
+      ],
+      "programExclusions": ["Politics and Governance", "Public Administration and Governance", "Criminology and Politics and Governance Double Major", "History and Politics and Governance Double Major", "Politics and Governance and Sociology Double Major"],
+      "notes": "Several list entries are interchangeable pairs (e.g., PPA 121/POG 310, PPA 122/POL 123/POG 410, PPA 124/POG 440, PPA 125/POG 315, PPA 425/POG 416, PPA 211/POG 214, PPA 303/INP 915) rather than independent options.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Public Health Minor",
+      "slug": "public_health_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/public_health_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["ENH 122", "POH 201"],
+      "electiveGroups": [
+        { "chooseCount": 4, "options": ["ENH 121", "ENH 325", "ENH 333", "ENH 505", "ENH 524", "ENH 721", "ENH 825", "POH 400", "POH 407", "POH 410", "POH 420", "POH 430", "POH 440", "POH 705", "PUB 301", "PUB 409", "PUB 501", "PUB 508", "PUB 607"] }
+      ],
+      "programExclusions": ["Occupational Health and Safety (all options)", "Public Health (all options)"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Public Relations Minor",
+      "slug": "public_relations_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/public_relations_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CMN 305"],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["CMN 200", "CMN 279"] },
+        { "chooseCount": 2, "options": ["CMN 288", "CMN 306", "JRN 103", "JRN 105", "JRN 215", "JRN 344", "JRN 400", "JRN 401", "JRN 402", "JRN 406", "JRN 415", "JRN 412", "MKT 100", "NNS 101", "NNS 102", "NNS 103", "NNS 344", "NNS 400", "NNS 401", "NNS 402", "NNS 406", "NNS 410", "NNS 412", "NNS 419", "NNS 500", "NNS 502", "NNS 505", "NNS 509", "NNS 510", "NNS 512", "RTA 233"] },
+        { "chooseCount": 2, "options": ["CMN 269", "CMN 288", "CMN 306", "CMN 314", "CMN 413", "CMN 450", "CMN 460", "CMN 601"] }
+      ],
+      "programExclusions": ["Professional Communication Minor (cannot be taken concurrently)", "News Studies Minor (cannot be taken concurrently)"],
+      "notes": "The calendar states the second elective group as 'minimum 2' and the third group with no stated minimum; the count of 2 recorded for the third group is inferred so the total reaches six courses, and is not fully confirmed. Journalism students may count at most two JRN-prefix courses; Professional Communication students may not use the third elective group; NNS 101 is itself a prerequisite for other NNS courses. CMN 100, CMN 114, or CMN 300 may substitute for CMN 279.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Real Estate Management Minor",
+      "slug": "real_estate_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/real_estate_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["REM 300"],
+      "electiveGroups": [
+        { "chooseCount": 3, "options": ["REM 400", "REM 420", "REM 500", "REM 520", "REM 600", "REM 620", "REM 660", "REM 700", "REM 750", "REM 770", "LAW 603", "LAW 703", "PLE 635"] },
+        { "chooseCount": 2, "options": ["AFF 210", "ECN 104", "ECN 204", "ENH 825", "EUS 102", "EUS 202", "EUS 301", "EUS 450", "EUS 550", "EUS 650", "EUS 750", "EUS 760", "EUS 850", "EUS 860", "FIN 300", "GEO 151", "GEO 231", "GEO 411", "GEO 514", "GEO 671", "GEO 719", "HIS 828", "HTA 602", "HTL 510", "LAW 122", "PLE 565", "PLE 635", "PLE 755", "PLE 795", "PLE 815", "PLG 100", "PLX 333", "PLX 599", "POL 377"] }
+      ],
+      "programExclusions": ["Business Management - Real Estate Management Major (regular and co-operative options)"],
+      "notes": "Urban and Regional Planning students may count at most two Planning-prefix courses toward the minor. Students in the Law and Business major may count only one of LAW 603 or LAW 703. PLE 635 is an accepted alternative to REM 620.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Retail and Services Management Minor",
+      "slug": "retail_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/retail_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["RMG 200"],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["RMG 302", "MKT 400", "RMG 303", "HTT 100", "RMG 400", "RMG 434", "RMG 452"] },
+        { "chooseCount": 3, "options": ["RMG 902", "RMG 905", "RMG 906", "RMG 907", "RMG 909", "RMG 910", "RMG 911", "RMG 913", "RMG 914", "RMG 920", "RMG 922"] }
+      ],
+      "programExclusions": ["Retail Management (major program)"],
+      "notes": "The calendar states both elective groups as 2-3 course ranges that together must total five courses; the split recorded here (2 and 3) is one valid reading but not the only one. HTT 100 substitutes for RMG 303 for Hospitality and Tourism Management students.",
+      "verificationStatus": "PARTIAL"
+    },
+    {
+      "name": "Sales Management and Service Quality Minor",
+      "slug": "sales_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/sales_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["MKT 504"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["CMN 288", "HTM 704", "HTT 100", "HTT 605", "MHR 523", "HTH 503", "MHR 640", "MKT 723", "RMG 907"] }
+      ],
+      "programExclusions": [],
+      "notes": "MHR 523/HTH 503 count as one interchangeable option. The calendar recommends taking the required course (MKT 504) first. Administered by the Marketing Department, Ted Rogers School of Business Management.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Social Innovation Minor",
+      "slug": "social_innovation_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/social_innovation_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["CYC 550", "CYC 560", "CYC 570"],
+      "electiveGroups": [
+        { "chooseCount": 3, "options": ["CLD 450", "CYC 101", "DST 503", "FNY 400", "FNY 510", "MWF 325", "SWP 903", "SWP 908", "SWP 925", "SWP 933", "CYC 201", "CYC 602", "FNY 409", "SWP 905", "SWP 923", "DST 506", "FNY 407", "FNY 408", "INT 912", "INT 917", "SWP 939", "DST 504", "SWP 900", "SWP 926", "CLD 448", "FNY 403", "FNY 404", "SWP 928", "CYC 601", "DST 727", "SWP 927", "SWP 938"] }
+      ],
+      "programExclusions": [],
+      "notes": "The elective courses are organized into six themed groups (Health and Well-Being; Adversity and Rights; Community Development; Diversity; Global Issues; Leadership and Innovation), but the calendar does not require a minimum per theme, only three courses total from the combined pool. Child and Youth Care students must choose non-CYC-prefix electives.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Sociology Minor",
+      "slug": "sociology_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/sociology_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["SOC 103", "SOC 104", "SOC 105", "SOC 111"] },
+        { "chooseCount": 5, "options": ["SOC 107", "SOC 112", "SOC 300", "SOC 319", "SOC 320", "SOC 330", "SOC 350", "SOC 402", "SOC 420", "SOC 427", "SOC 470", "SOC 472", "SOC 474", "SOC 476", "SOC 478", "SOC 479", "SOC 500", "SOC 501", "SOC 502", "SOC 503", "SOC 504", "SOC 505", "SOC 506", "SOC 507", "SOC 525", "SOC 530", "SOC 540", "SOC 553", "SOC 558", "SOC 576", "SOC 580", "SOC 595", "SOC 600", "SOC 603", "SOC 605", "SOC 606", "SOC 608", "SOC 609", "SOC 611", "SOC 633", "SOC 700", "SOC 703", "SOC 704", "SOC 705", "SOC 706", "SOC 708", "SOC 801", "SOC 808", "SOC 880", "SOC 885", "SOC 902", "SOC 903", "SOC 931", "SOC 932", "SOC 941", "SOC 943"] }
+      ],
+      "programExclusions": ["Sociology", "Criminology and Sociology", "History and Sociology", "Politics and Governance and Sociology"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Spanish Minor",
+      "slug": "spanish_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/spanish_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 2, "options": ["SPN 402", "SPN 510", "SPN 515", "SPN 610", "SPN 702", "SPN 710", "SPN 802", "SPN 803", "SPN 805", "SPN 810", "SPN 900"] },
+        { "chooseCount": 4, "options": ["SPN 301", "SPN 302", "SPN 303", "SPN 401", "SPN 402", "SPN 501", "SPN 504", "SPN 506", "SPN 507", "SPN 510", "SPN 515", "SPN 601", "SPN 607", "SPN 610", "SPN 702", "SPN 704", "SPN 705", "SPN 706", "SPN 707", "SPN 708", "SPN 710", "SPN 802", "SPN 803", "SPN 804", "SPN 805", "SPN 810", "SPN 900", "SPS 512"] }
+      ],
+      "programExclusions": ["Language and Intercultural Relations - Spanish Option"],
+      "notes": "Starting course level is determined by online placement testing; sequencing/prerequisite rules may limit concurrent enrolment in some terms. Early consultation with the Department of Languages, Literatures and Cultures is recommended.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Tourism Minor",
+      "slug": "tourism_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/tourism_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": [],
+      "electiveGroups": [
+        { "chooseCount": 1, "options": ["HTT 100", "HTT 150"] },
+        { "chooseCount": 5, "options": ["CRB 100", "GEO 631", "HTH 700", "HTI 746", "HTL 503", "HTT 501", "HTT 509", "HTT 510", "HTT 605", "HTT 607", "HTT 622"] }
+      ],
+      "programExclusions": ["Hospitality and Tourism Management, all options"],
+      "notes": "Administered by the Ted Rogers School of Hospitality and Tourism Management.",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "name": "Visual Studies Minor",
+      "slug": "visual_minor",
+      "sourceUrl": "https://www.torontomu.ca/calendar/2026-2027/minors/visual_minor.html",
+      "calendarEdition": "2026-2027",
+      "requiredCourses": ["MPC 201"],
+      "electiveGroups": [
+        { "chooseCount": 5, "options": ["FCD 551", "MPC 101", "MPC 103", "MPC 203", "MPC 210", "MPI 603", "NPF 188", "NPF 510", "NPF 530", "NPF 569", "NPF 570", "NPF 574", "NPF 604", "SEM 102"] }
+      ],
+      "programExclusions": ["Image Arts (all options)", "New Media"],
+      "notes": null,
+      "verificationStatus": "VERIFIED"
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { RecommendationResult } from "@/lib/types";
 import { getMatchExplanation } from "@/lib/recommendation";
+import { getMinorCreditForCourse } from "@/lib/minors";
 
 interface CourseCardProps {
   result: RecommendationResult;
@@ -15,9 +16,10 @@ export default function CourseCard({
   variant = "secondary",
   index = 0,
 }: CourseCardProps) {
-  const { course, score, matchedInterests } = result;
+  const { course, matchedInterests } = result;
   const isPrimary = variant === "primary";
   const explanation = getMatchExplanation(matchedInterests);
+  const minorCredit = getMinorCreditForCourse(course.courseCode);
 
   return (
     <motion.div
@@ -31,15 +33,9 @@ export default function CourseCard({
           : "border border-line p-5 hover:border-blueprint",
       ].join(" ")}
     >
-      <div className="flex items-baseline justify-between gap-4 mb-2">
+      <div className="mb-2">
         <p className="eyebrow text-[0.65rem] text-blueprint">
           {course.courseCode}
-        </p>
-        <p
-          className="font-mono-tag text-xs text-blueprint font-semibold shrink-0"
-          title="Reflects overlap with your selected interests, not course difficulty or quality."
-        >
-          {score}% match
         </p>
       </div>
 
@@ -72,6 +68,20 @@ export default function CourseCard({
         >
           {explanation}
         </p>
+      )}
+
+      {minorCredit.length > 0 && (
+        <div className="mt-3 space-y-1.5">
+          {minorCredit.map((credit) => (
+            <p
+              key={`${credit.minorSlug}-${credit.role}`}
+              className="font-mono-tag text-[0.7rem] text-blueprint leading-snug"
+              title={credit.sourceUrl}
+            >
+              ✓ Counts toward the {credit.minorName}
+            </p>
+          ))}
+        </div>
       )}
 
       {course.verified.programRestrictions && (

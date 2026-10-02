@@ -123,7 +123,7 @@ export default function ResultsClient() {
                 <h2 className="eyebrow text-xs text-ink-soft mb-4">
                   You Might Also Like
                 </h2>
-                <div className="grid sm:grid-cols-2 gap-4">
+                <div className="flex flex-col gap-3">
                   {rest.map((result, i) => (
                     <CourseCard
                       key={result.course.courseCode}

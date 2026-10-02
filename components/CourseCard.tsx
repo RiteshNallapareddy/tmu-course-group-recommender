@@ -30,7 +30,7 @@ export default function CourseCard({
         "relative rounded bg-white transition-colors",
         isPrimary
           ? "border-2 border-blueprint p-6 md:p-8"
-          : "border border-line p-5 hover:border-blueprint",
+          : "border border-blueprint p-4 hover:border-ink",
       ].join(" ")}
     >
       <div className="mb-2">
@@ -103,7 +103,10 @@ export default function CourseCard({
           href={course.verified.descriptionSourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 font-display font-bold text-sm text-white bg-blueprint hover:bg-ink transition-colors rounded px-4 py-2 mt-4"
+          className={[
+            "inline-flex items-center gap-1.5 font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors rounded",
+            isPrimary ? "text-sm px-4 py-2 mt-4" : "text-xs px-3 py-1.5 mt-3",
+          ].join(" ")}
         >
           View Course
           <span aria-hidden="true">→</span>

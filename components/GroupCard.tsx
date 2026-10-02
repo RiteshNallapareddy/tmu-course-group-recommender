@@ -34,7 +34,7 @@ export default function GroupCard({
         "relative rounded bg-white transition-colors",
         isPrimary
           ? "border-2 border-blueprint p-6 md:p-8"
-          : "border border-line p-5 hover:border-blueprint",
+          : "border border-blueprint p-4 hover:border-ink",
       ].join(" ")}
     >
       <div className="mb-2">
@@ -101,11 +101,19 @@ export default function GroupCard({
         </p>
       )}
 
-      <div className="flex flex-wrap items-center gap-3 mt-4">
+      <div
+        className={[
+          "flex flex-wrap items-center gap-3",
+          isPrimary ? "mt-4" : "mt-3",
+        ].join(" ")}
+      >
         {group.contactEmail && (
           <a
             href={`mailto:${group.contactEmail}`}
-            className="inline-flex items-center gap-1.5 font-display font-bold text-sm text-white bg-blueprint hover:bg-ink transition-colors rounded px-4 py-2"
+            className={[
+              "inline-flex items-center gap-1.5 font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors rounded",
+              isPrimary ? "text-sm px-4 py-2" : "text-xs px-3 py-1.5",
+            ].join(" ")}
           >
             Email {group.contactEmail}
           </a>
@@ -115,7 +123,10 @@ export default function GroupCard({
             href={group.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 font-display font-bold text-sm text-ink hover:text-blueprint border-2 border-ink hover:border-blueprint transition-colors rounded px-4 py-2"
+            className={[
+              "inline-flex items-center gap-1.5 font-display font-bold text-ink hover:text-blueprint border-2 border-ink hover:border-blueprint transition-colors rounded",
+              isPrimary ? "text-sm px-4 py-2" : "text-xs px-3 py-1.5",
+            ].join(" ")}
           >
             Visit Site
             <span aria-hidden="true">→</span>

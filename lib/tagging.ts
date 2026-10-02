@@ -1,8 +1,12 @@
 import { Interest } from "./types";
-import { INTERESTS } from "@/data/interests";
 
-export function interestsById(ids: string[]): Interest[] {
+/**
+ * Resolves interest ids against whatever taxonomy the caller passes in
+ * (liberals' INTERESTS, groups' GROUP_INTERESTS, ...) so this stays usable
+ * by any recommendation path rather than being tied to one dataset.
+ */
+export function interestsById(ids: string[], allInterests: Interest[]): Interest[] {
   return ids
-    .map((id) => INTERESTS.find((i) => i.id === id))
+    .map((id) => allInterests.find((i) => i.id === id))
     .filter((i): i is Interest => Boolean(i));
 }

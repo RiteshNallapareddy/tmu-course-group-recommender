@@ -4,21 +4,39 @@ import Link from "next/link";
 import { useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
-import CourseCard from "@/components/CourseCard";
-import { recommendCourses } from "@/lib/recommendation";
+import GroupCard from "@/components/GroupCard";
+import { recommendGroups, getStartYourOwnLinks } from "@/lib/groups";
 import { interestsById } from "@/lib/tagging";
+import { GROUP_INTERESTS, PROGRAM_OPTIONS, ProgramId } from "@/data/groupInterests";
 
-export default function ResultsClient() {
+function parseProgram(raw: string | null): ProgramId | null {
+  if (!raw) return null;
+  const match = PROGRAM_OPTIONS.find((p) => p.id === raw);
+  return match ? (match.id as ProgramId) : null;
+}
+
+export default function GroupsResultsClient() {
   const searchParams = useSearchParams();
   const interestIds = useMemo(() => {
     const raw = searchParams.get("interests") ?? "";
     return raw.split(",").filter(Boolean);
   }, [searchParams]);
+  const program = useMemo(
+    () => parseProgram(searchParams.get("program")),
+    [searchParams]
+  );
 
-  const selectedInterests = useMemo(() => interestsById(interestIds), [interestIds]);
-  const results = useMemo(() => recommendCourses(interestIds, 5), [interestIds]);
+  const selectedInterests = useMemo(
+    () => interestsById(interestIds, GROUP_INTERESTS),
+    [interestIds]
+  );
+  const results = useMemo(
+    () => recommendGroups(interestIds, program, 5),
+    [interestIds, program]
+  );
 
   const [topMatch, ...rest] = results;
+  const startYourOwn = getStartYourOwnLinks();
 
   if (interestIds.length === 0) {
     return (
@@ -32,7 +50,7 @@ export default function ResultsClient() {
             your matches.
           </p>
           <Link
-            href="/quiz"
+            href="/groups/quiz"
             className="inline-flex font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors rounded px-6 py-3 text-sm"
           >
             Choose Interests
@@ -49,14 +67,14 @@ export default function ResultsClient() {
       <header className="relative z-10 border-b border-line bg-paper/90 backdrop-blur-sm">
         <div className="max-w-4xl mx-auto px-6 py-6">
           <p className="eyebrow text-[0.65rem] text-blueprint mb-1">
-            Step 2 of 2 · Your Results
+            Step 3 of 3 · Your Results
           </p>
           <div className="flex items-center justify-between flex-wrap gap-3">
             <h1 className="font-display text-2xl md:text-3xl font-black text-ink tracking-tight">
               Your matches
             </h1>
             <Link
-              href="/quiz"
+              href="/groups/quiz"
               className="font-body text-sm text-blueprint hover:text-ink underline underline-offset-4"
             >
               Change interests
@@ -83,19 +101,38 @@ export default function ResultsClient() {
             className="text-center py-20"
           >
             <p className="font-display text-xl font-bold text-ink mb-2">
-              No confirmed matches yet
+              Nothing matched closely enough
             </p>
-            <p className="font-body text-ink-soft max-w-sm mx-auto">
-              This combination doesn&apos;t hit any verified courses in the
-              dataset yet — research on the remaining courses is still in
-              progress. Try a different combination.
+            <p className="font-body text-ink-soft max-w-sm mx-auto mb-8">
+              Rather than guess at a weak match, here&apos;s how to start
+              your own team instead.
             </p>
-            <Link
-              href="/quiz"
-              className="inline-flex mt-6 font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors rounded px-6 py-3 text-sm"
-            >
-              Try Again
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+              <a
+                href={startYourOwn.engineering}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors rounded px-5 py-3 text-sm"
+              >
+                Start an Engineering Team
+              </a>
+              <a
+                href={startYourOwn.architecture}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors rounded px-5 py-3 text-sm"
+              >
+                Start an Architecture Team
+              </a>
+              <a
+                href={startYourOwn.techBased}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors rounded px-5 py-3 text-sm"
+              >
+                Start a Tech-Based Team
+              </a>
+            </div>
           </motion.div>
         ) : (
           <>
@@ -104,7 +141,7 @@ export default function ResultsClient() {
                 <h2 className="eyebrow text-xs text-white bg-blueprint inline-block px-3 py-1.5 rounded mb-4">
                   Your Top Match
                 </h2>
-                <CourseCard result={topMatch} variant="primary" />
+                <GroupCard result={topMatch} variant="primary" />
               </section>
             )}
 
@@ -115,8 +152,8 @@ export default function ResultsClient() {
                 </h2>
                 <div className="grid sm:grid-cols-2 gap-4">
                   {rest.map((result, i) => (
-                    <CourseCard
-                      key={result.course.courseCode}
+                    <GroupCard
+                      key={result.item.id}
                       result={result}
                       variant="secondary"
                       index={i + 1}
@@ -125,12 +162,6 @@ export default function ResultsClient() {
                 </div>
               </section>
             )}
-
-            <p className="font-body text-xs text-ink-soft/70 mt-12 max-w-md">
-              Match scores reflect how much a course&apos;s tags overlap with
-              the interests you picked — not course difficulty, workload, or
-              quality.
-            </p>
           </>
         )}
       </div>

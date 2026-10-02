@@ -42,7 +42,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "vehicles",
+          "competitions"
+        ]
       }
     },
     {
@@ -62,7 +65,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "vehicles",
+          "competitions"
+        ]
       }
     },
     {
@@ -82,7 +88,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "vehicles",
+          "hands-on-building"
+        ]
       }
     },
     {
@@ -102,7 +111,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "vehicles",
+          "competitions"
+        ]
       }
     },
     {
@@ -122,7 +134,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "vehicles",
+          "competitions"
+        ]
       }
     },
     {
@@ -142,7 +157,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "vehicles",
+          "chemical",
+          "hands-on-building"
+        ]
       }
     },
     {
@@ -162,7 +181,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "structures",
+          "competitions"
+        ]
       }
     },
     {
@@ -182,7 +204,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "robots",
+          "competitions",
+          "networking-and-industry"
+        ]
       }
     },
     {
@@ -204,7 +230,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "structures",
+          "competitions"
+        ]
       }
     },
     {
@@ -224,7 +253,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "robots",
+          "competitions"
+        ]
       }
     },
     {
@@ -244,7 +276,9 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "structures"
+        ]
       }
     },
     {
@@ -266,7 +300,9 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "vehicles"
+        ]
       }
     },
     {
@@ -288,7 +324,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "aircraft-and-rockets",
+          "aerospace",
+          "hands-on-building"
+        ]
       }
     },
     {
@@ -308,7 +348,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "aircraft-and-rockets",
+          "aerospace",
+          "hands-on-building"
+        ]
       }
     },
     {
@@ -328,7 +372,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "aircraft-and-rockets",
+          "aerospace",
+          "competitions"
+        ]
       }
     },
     {
@@ -348,7 +396,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "aircraft-and-rockets",
+          "aerospace",
+          "hands-on-building"
+        ]
       }
     },
     {
@@ -368,7 +420,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "aircraft-and-rockets",
+          "aerospace",
+          "competitions"
+        ]
       }
     },
     {
@@ -390,7 +446,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": true,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "biomedical",
+          "robots",
+          "hands-on-building"
+        ]
       }
     },
     {
@@ -410,7 +470,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "networking-and-industry",
+          "structures"
+        ]
       }
     },
     {
@@ -430,7 +494,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "social-and-community",
+          "networking-and-industry",
+          "cross-discipline"
+        ]
       }
     },
     {
@@ -452,7 +521,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "social-and-community",
+          "community-and-identity-based-groups",
+          "cross-discipline"
+        ]
       }
     },
     {
@@ -472,7 +546,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "outreach",
+          "advocacy-and-representation",
+          "cross-discipline"
+        ]
       }
     },
     {
@@ -492,7 +570,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "outreach",
+          "networking-and-industry",
+          "community-and-identity-based-groups",
+          "workshops-and-skills"
+        ]
       }
     },
     {
@@ -512,7 +595,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "assistive-tech",
+          "hands-on-building",
+          "biomedical"
+        ]
       }
     },
     {
@@ -532,7 +619,12 @@
       "isAutomaticMembership": true,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "social-and-community",
+          "networking-and-industry",
+          "workshops-and-skills",
+          "aerospace"
+        ]
       }
     },
     {
@@ -552,7 +644,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "competitions",
+          "aircraft-and-rockets",
+          "aerospace",
+          "networking-and-industry"
+        ]
       }
     },
     {
@@ -572,7 +669,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "aerospace",
+          "workshops-and-skills"
+        ]
       }
     },
     {
@@ -594,7 +695,13 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "aircraft-and-rockets",
+          "competitions",
+          "workshops-and-skills",
+          "aerospace",
+          "electronics"
+        ]
       }
     },
     {
@@ -614,7 +721,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "workshops-and-skills",
+          "aerospace",
+          "electronics"
+        ]
       }
     },
     {
@@ -634,7 +745,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "aircraft-and-rockets",
+          "aerospace",
+          "social-and-community"
+        ]
       }
     },
     {
@@ -654,7 +769,9 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "social-and-community"
+        ]
       }
     },
     {
@@ -674,7 +791,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "workshops-and-skills"
+        ]
       }
     },
     {
@@ -694,7 +814,11 @@
       "isAutomaticMembership": true,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "networking-and-industry",
+          "social-and-community"
+        ]
       }
     },
     {
@@ -714,7 +838,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "chemical"
+        ]
       }
     },
     {
@@ -736,7 +863,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "workshops-and-skills",
+          "chemical"
+        ]
       }
     },
     {
@@ -756,7 +887,11 @@
       "isAutomaticMembership": true,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "social-and-community",
+          "chemical"
+        ]
       }
     },
     {
@@ -778,7 +913,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "outreach",
+          "civil",
+          "workshops-and-skills"
+        ]
       }
     },
     {
@@ -800,7 +940,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "workshops-and-skills",
+          "networking-and-industry",
+          "civil"
+        ]
       }
     },
     {
@@ -822,7 +966,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "social-and-community",
+          "electrical-and-computer"
+        ]
       }
     },
     {
@@ -842,7 +990,12 @@
       "isAutomaticMembership": true,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "social-and-community",
+          "workshops-and-skills",
+          "biomedical"
+        ]
       }
     },
     {
@@ -862,7 +1015,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "competitions",
+          "biomedical"
+        ]
       }
     },
     {
@@ -885,7 +1042,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "hands-on-building",
+          "workshops-and-skills",
+          "electronics"
+        ]
       }
     },
     {
@@ -905,7 +1066,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "workshops-and-skills",
+          "electrical-and-computer"
+        ]
       }
     },
     {
@@ -925,7 +1089,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "workshops-and-skills",
+          "biomedical",
+          "networking-and-industry",
+          "competitions"
+        ]
       }
     },
     {
@@ -947,7 +1116,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "workshops-and-skills",
+          "networking-and-industry",
+          "electrical-and-computer",
+          "competitions"
+        ]
       }
     },
     {
@@ -969,7 +1143,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "social-and-community",
+          "workshops-and-skills",
+          "biomedical",
+          "networking-and-industry"
+        ]
       }
     },
     {
@@ -989,7 +1168,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "mechanical-and-industrial"
+        ]
       }
     },
     {
@@ -1011,7 +1193,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "workshops-and-skills",
+          "social-and-community",
+          "mechanical-and-industrial"
+        ]
       }
     },
     {
@@ -1031,7 +1218,12 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "workshops-and-skills",
+          "social-and-community",
+          "mechanical-and-industrial",
+          "networking-and-industry"
+        ]
       }
     },
     {
@@ -1051,7 +1243,11 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "workshops-and-skills",
+          "networking-and-industry",
+          "mechanical-and-industrial"
+        ]
       }
     },
     {
@@ -1073,7 +1269,10 @@
       "isAutomaticMembership": false,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "networking-and-industry",
+          "mechanical-and-industrial"
+        ]
       }
     },
     {
@@ -1093,7 +1292,11 @@
       "isAutomaticMembership": true,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "social-and-community",
+          "networking-and-industry",
+          "mechanical-and-industrial"
+        ]
       }
     },
     {
@@ -1113,7 +1316,11 @@
       "isAutomaticMembership": true,
       "isUmbrella": false,
       "estimated": {
-        "interestTags": []
+        "interestTags": [
+          "advocacy-and-representation",
+          "social-and-community",
+          "mechanical-and-industrial"
+        ]
       }
     }
   ]

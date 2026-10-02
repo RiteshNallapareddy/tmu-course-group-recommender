@@ -1,5 +1,5 @@
-import { Course, CourseDataset, Interest, RecommendationResult } from "./types";
-import { interestsById } from "./tagging";
+import { Course, CourseDataset, RecommendationResult } from "./types";
+import { scoreItems } from "./matching";
 import { INTERESTS } from "@/data/interests";
 import rawDataset from "@/data/tmu_table_a_liberals.json";
 
@@ -46,18 +46,9 @@ export function isEligibleForEngineeringStudent(course: Course): boolean {
 }
 
 /**
- * Resolves a course's interest tags from the curated taxonomy data
- * (course.estimated.interestTags) — the only tag source scoring uses.
- */
-function resolveCourseTags(course: Course): string[] {
-  return course.estimated?.interestTags ?? [];
-}
-
-/**
  * Ranks a given list of courses against the student's selected interests and
- * returns the top N. Scoring is purely data-driven: it counts overlap
- * between selected interest ids and each course's resolved tags. No course
- * code or interest id is special-cased anywhere in this function.
+ * returns the top N, via the shared scoring engine (lib/matching.ts). No
+ * course code or interest id is special-cased anywhere in this function.
  *
  * Takes an explicit course list (rather than reading the bundled dataset
  * directly) so eligibility + scoring can be exercised against synthetic
@@ -69,53 +60,32 @@ export function recommendCoursesFrom(
   selectedInterestIds: string[],
   limit = 5
 ): RecommendationResult[] {
-  if (selectedInterestIds.length === 0) return [];
+  // Eligibility is decided before scoring, and is unaffected by interest
+  // overlap — see isEligibleForEngineeringStudent above.
+  const eligible = courses.filter(isEligibleForEngineeringStudent);
 
-  const results: RecommendationResult[] = [];
+  const scored = scoreItems(
+    eligible.map((course) => ({
+      id: course.courseCode,
+      name: course.courseName,
+      description: course.verified.description ?? "",
+      interestTags: course.estimated?.interestTags ?? [],
+    })),
+    selectedInterestIds,
+    INTERESTS,
+    limit
+  );
 
-  for (const course of courses) {
-    // Eligibility is decided before scoring, and is unaffected by interest
-    // overlap — see isEligibleForEngineeringStudent above.
-    if (!isEligibleForEngineeringStudent(course)) continue;
-
-    const tagIds = resolveCourseTags(course);
-    const overlap = tagIds.filter((id) => selectedInterestIds.includes(id));
-    if (overlap.length === 0) continue;
-
-    // Coverage rewards how many of the student's picks this course hits,
-    // floored so a single-interest match still scores meaningfully (a
-    // course matching all selected interests approaches 100). The floor is
-    // applied to the coverage term itself, before the specificity penalty
-    // below, so a broadly-tagged course and a narrowly-tagged course no
-    // longer collapse to an identical score once floored.
-    const coverage = overlap.length / selectedInterestIds.length; // 0..1
-    const coverageScore = Math.max(100 * coverage, 35);
-
-    // Mild penalty for very broad tag sets, capped so it can never erase a
-    // genuine match's meaningfulness. This is evidence quality/specificity
-    // of the tag match only — verificationStatus is never read here, so a
-    // PARTIALLY_VERIFIED course scores identically to a VERIFIED course
-    // with the same tags.
-    const specificity = Math.min(tagIds.length, 8);
-    const score = Math.round(coverageScore * (1 - specificity * 0.015));
-
-    results.push({
-      course,
-      score,
-      matchedInterests: interestsById(overlap),
-      usedResearchedTags: true,
-    });
-  }
-
-  // Deterministic ranking: score descending, then course code ascending as
-  // an explicit tie-breaker, rather than relying on incidental JSON array
-  // order (which a stable sort alone would otherwise fall back to).
-  results.sort((a, b) => {
-    if (b.score !== a.score) return b.score - a.score;
-    return a.course.courseCode.localeCompare(b.course.courseCode);
-  });
-
-  return results.slice(0, limit);
+  // Map scored ids back to their full Course objects. verificationStatus is
+  // never read in scoring, so a PARTIALLY_VERIFIED course scores identically
+  // to a VERIFIED course with the same tags.
+  const byCode = new Map(eligible.map((c) => [c.courseCode, c]));
+  return scored.map((result) => ({
+    course: byCode.get(result.item.id) as Course,
+    score: result.score,
+    matchedInterests: result.matchedInterests,
+    usedResearchedTags: true,
+  }));
 }
 
 export function recommendCourses(
@@ -129,22 +99,4 @@ export function getInterestList() {
   return INTERESTS;
 }
 
-/**
- * Short, plain-language sentence explaining why a course was recommended,
- * built only from interests the tagging logic actually matched for this
- * course — never claims a course is about something the data didn't
- * establish. Not currently wired into the UI (Phase 2 scope limited
- * CourseCard.tsx changes to the restriction-transparency fix only); exposed
- * here so it's ready to use and independently testable.
- */
-export function getMatchExplanation(matchedInterests: Interest[]): string {
-  const labels = matchedInterests.map((i) => i.label);
-  if (labels.length === 0) return "";
-  if (labels.length === 1) return `Matches your interest in ${labels[0]}.`;
-  if (labels.length === 2) {
-    return `Matches your interests in ${labels[0]} and ${labels[1]}.`;
-  }
-  const allButLast = labels.slice(0, -1).join(", ");
-  const last = labels[labels.length - 1];
-  return `Strong match for your interests in ${allButLast}, and ${last}.`;
-}
+export { getMatchExplanation } from "./matching";

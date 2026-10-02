@@ -20,7 +20,7 @@ export default function CoursesPage() {
             Every Engineering-eligible Table A Liberal Studies course we
             have data on. Not sure where to start?{" "}
             <Link
-              href="/quiz"
+              href="/liberals/quiz"
               className="text-blueprint hover:text-ink underline underline-offset-4"
             >
               Find your match instead →

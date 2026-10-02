@@ -56,10 +56,113 @@ export interface Interest {
   category: string;
 }
 
+export type MinorVerificationStatus = "VERIFIED" | "PARTIAL" | "NEEDS_VERIFICATION";
+
+export interface MinorElectiveGroup {
+  chooseCount: number;
+  options: string[];
+}
+
+export interface Minor {
+  name: string;
+  slug: string;
+  sourceUrl: string;
+  calendarEdition: string;
+  requiredCourses: string[];
+  electiveGroups: MinorElectiveGroup[];
+  programExclusions: string[];
+  notes: string | null;
+  verificationStatus: MinorVerificationStatus;
+}
+
+export interface MinorsDataset {
+  meta: Record<string, unknown>;
+  minors: Minor[];
+}
+
+export interface MinorCreditEntry {
+  minorName: string;
+  minorSlug: string;
+  role: "required" | "elective_option";
+  chooseCount: number | null;
+  optionPoolSize: number | null;
+  sourceUrl: string;
+}
+
+export interface MinorCreditDataset {
+  generatedAt: string;
+  byCourse: Record<string, MinorCreditEntry[]>;
+  byMinor: Record<
+    string,
+    {
+      minorName: string;
+      sourceUrl: string;
+      requiredMatches: string[];
+      electiveMatches: { courseCode: string; chooseCount: number; optionPoolSize: number }[];
+    }
+  >;
+}
+
 export interface RecommendationResult {
   course: Course;
   score: number; // 0-100
   matchedInterests: Interest[];
   /** Always true now that scoring only reads curated estimated.interestTags. */
   usedResearchedTags: boolean;
+}
+
+/**
+ * Minimal shape the shared scoring engine (lib/matching.ts) needs from any
+ * dataset. Each dataset (courses, groups, ...) adapts its own records into
+ * this shape rather than changing its native type.
+ */
+export interface Recommendable {
+  id: string;
+  name: string;
+  description: string;
+  interestTags: string[];
+}
+
+export interface ScoredResult<T = Recommendable> {
+  item: T;
+  score: number; // 0-100
+  matchedInterests: Interest[];
+}
+
+export type GroupCategory = "design_team" | "student_group" | "student_government";
+export type GroupType = "chapter" | "course_union" | "interest_group" | null;
+export type GroupAudience = "engineering" | "architecture" | "all_feas";
+export type GroupVerificationStatus = "VERIFIED" | "PARTIAL" | "NEEDS_VERIFICATION";
+
+export interface GroupEstimatedFields {
+  interestTags: string[];
+}
+
+export interface GroupRecord {
+  id: string;
+  name: string;
+  category: GroupCategory;
+  pageSection: string;
+  groupType: GroupType;
+  discipline: string;
+  audience: GroupAudience;
+  description: string;
+  contactEmail: string | null;
+  website: string | null;
+  sourceUrl: string;
+  verificationStatus: GroupVerificationStatus;
+  dataIssues: string[];
+  isAutomaticMembership: boolean;
+  isUmbrella: boolean;
+  estimated: GroupEstimatedFields;
+}
+
+export interface GroupsDataset {
+  meta: Record<string, unknown>;
+  startYourOwn: {
+    engineering: string;
+    architecture: string;
+    techBased: string;
+  };
+  groups: GroupRecord[];
 }

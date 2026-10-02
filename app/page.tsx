@@ -3,57 +3,72 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const STEPS = [
+const PATHS = [
   {
-    number: "01",
-    title: "Pick your interests",
-    body: "Choose up to three things you actually care about — from history and philosophy to psychology and the arts.",
+    href: "/liberals",
+    eyebrow: "Table A · Liberal Studies",
+    title: "Find a Liberal.",
+    body: "Pick what you're into and we'll match you against real TMU Table A course descriptions — not a generic catalogue.",
+    cta: "Find My Liberal",
   },
   {
-    number: "02",
-    title: "We match real courses",
-    body: "We check your picks against real TMU Table A course descriptions, not a generic catalogue.",
-  },
-  {
-    number: "03",
-    title: "Find your Liberal",
-    body: "See your top match plus a few backups, with restrictions and course pages one click away.",
+    href: "/groups",
+    eyebrow: "Design Teams · Student Groups",
+    title: "Find a Team.",
+    body: "Pick what you're into and we'll match you against FEAS design teams, student groups and student government.",
+    cta: "Find My Team",
   },
 ];
 
-export default function LandingPage() {
+export default function HomePage() {
   return (
-    <main className="bg-paper">
-      <section className="relative overflow-hidden px-6">
-        <div className="absolute inset-0 blueprint-grid opacity-70 pointer-events-none" />
-        <div className="absolute inset-x-0 top-0 h-px bg-line" />
+    <main className="bg-paper min-h-screen relative overflow-hidden px-6">
+      <div className="absolute inset-0 blueprint-grid opacity-70 pointer-events-none" />
+      <div className="absolute inset-x-0 top-0 h-px bg-line" />
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="relative z-10 max-w-3xl mx-auto text-center py-24 md:py-32"
-        >
-          <p className="eyebrow text-xs text-blueprint mb-6">
-            First-Year Engineering
-          </p>
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="relative z-10 max-w-3xl mx-auto text-center pt-24 md:pt-32 pb-16"
+      >
+        <p className="eyebrow text-xs text-blueprint mb-6">
+          First-Year Engineering Office
+        </p>
 
-          <h1 className="font-display text-6xl md:text-7xl font-black text-ink leading-[1.03] mb-7 tracking-tight">
-            Find Your <span className="text-blueprint">Liberal.</span>
-          </h1>
+        <h1 className="font-display text-5xl md:text-6xl font-black text-ink leading-[1.03] mb-7 tracking-tight">
+          What are you looking for?
+        </h1>
 
-          <p className="font-body text-lg md:text-xl text-ink-soft leading-relaxed max-w-xl mx-auto mb-10">
-            A tool built for TMU Engineering students to find a Table A
-            Liberal Studies course they&apos;ll actually enjoy — matched to
-            real course descriptions, not just a requirement to check off.
-          </p>
+        <p className="font-body text-lg text-ink-soft leading-relaxed max-w-xl mx-auto">
+          Two ways to find something at TMU Engineering you&apos;ll actually
+          enjoy, both matched from what you&apos;re into — not a quiz.
+        </p>
+      </motion.div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+      <div className="relative z-10 max-w-4xl mx-auto grid sm:grid-cols-2 gap-6 pb-24">
+        {PATHS.map((path, i) => (
+          <motion.div
+            key={path.href}
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 + i * 0.08, duration: 0.45, ease: "easeOut" }}
+            className="rounded border-2 border-ink bg-white p-8 flex flex-col"
+          >
+            <p className="eyebrow text-[0.65rem] text-blueprint mb-4">
+              {path.eyebrow}
+            </p>
+            <h2 className="font-display text-3xl font-black text-ink tracking-tight mb-4">
+              {path.title}
+            </h2>
+            <p className="font-body text-sm text-ink-soft leading-relaxed mb-8 flex-1">
+              {path.body}
+            </p>
             <Link
-              href="/quiz"
-              className="group inline-flex items-center gap-3 font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors duration-200 rounded px-8 py-4 text-base"
+              href={path.href}
+              className="group inline-flex items-center justify-center gap-3 font-display font-bold text-white bg-blueprint hover:bg-ink transition-colors duration-200 rounded px-6 py-4 text-base"
             >
-              Find My Liberal
+              {path.cta}
               <span
                 aria-hidden="true"
                 className="transition-transform duration-200 group-hover:translate-x-1"
@@ -61,57 +76,9 @@ export default function LandingPage() {
                 →
               </span>
             </Link>
-
-            <Link
-              href="/courses"
-              className="inline-flex items-center gap-2 font-display font-bold text-ink hover:text-blueprint border-2 border-ink hover:border-blueprint transition-colors duration-200 rounded px-7 py-4 text-base"
-            >
-              Browse All Courses
-            </Link>
-          </div>
-
-          <p className="eyebrow text-[0.65rem] text-ink-soft/70">
-            Pick up to 3 interests · Get matched in seconds
-          </p>
-        </motion.div>
-      </section>
-
-      <section
-        id="how-it-works"
-        className="relative border-t border-line px-6 py-20 md:py-28"
-      >
-        <div className="max-w-5xl mx-auto">
-          <div className="max-w-xl mb-14">
-            <p className="eyebrow text-xs text-blueprint mb-3">How it works</p>
-            <h2 className="font-display text-3xl md:text-4xl font-black text-ink tracking-tight">
-              Three steps to your course.
-            </h2>
-          </div>
-
-          <div className="grid sm:grid-cols-3 gap-6">
-            {STEPS.map((step, i) => (
-              <motion.div
-                key={step.number}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-60px" }}
-                transition={{ delay: i * 0.08, duration: 0.45, ease: "easeOut" }}
-                className="rounded border border-line bg-white p-6"
-              >
-                <p className="font-mono-tag text-xs text-blueprint mb-4">
-                  {step.number}
-                </p>
-                <h3 className="font-display text-lg font-bold text-ink mb-2">
-                  {step.title}
-                </h3>
-                <p className="font-body text-sm text-ink-soft leading-relaxed">
-                  {step.body}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+          </motion.div>
+        ))}
+      </div>
     </main>
   );
 }

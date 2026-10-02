@@ -1,0 +1,1118 @@
+{
+  "meta": {
+    "title": "FEAS Student Involvement -- Design Teams, Student Government & Student Groups",
+    "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/",
+    "fetchedDate": "2026-10-02",
+    "totalRecords": 53,
+    "countsByCategory": {
+      "design_team": 18,
+      "student_government": 2,
+      "student_group": 33
+    },
+    "countsByVerificationStatus": {
+      "VERIFIED": 42,
+      "NEEDS_VERIFICATION": 9,
+      "PARTIAL": 2
+    },
+    "excludedSections": [
+      "Life, Recreation & Athletics (links to university-wide services, not FEAS groups)"
+    ],
+    "methodology": "Scraped directly from the FEAS Student Involvement page (the only source). All accordion panels were expanded via the page's own DOM before extraction so no collapsed content was missed. Descriptions are paraphrased, not copied verbatim. Known contact-mismatch and legacy-branding issues noted on the page (or found during extraction) are recorded per-record in dataIssues rather than corrected."
+  },
+  "startYourOwn": {
+    "engineering": "https://mues.ca/opportunities/new-sg/",
+    "architecture": "https://arc-soc.ca/contact-1",
+    "techBased": "https://www.innovationboostzone.com/ibz-exploration"
+  },
+  "groups": [
+    {
+      "id": "toronto-met-formula-racing",
+      "name": "Toronto Met Formula Racing",
+      "category": "design_team",
+      "pageSection": "Build land & water vehicles",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Builds and races a formula-style car against other universities at international Formula SAE competitions.",
+      "contactEmail": "fsae@torontomu.ca",
+      "website": "https://torontometformularacing.squarespace.com/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-baja-racing",
+      "name": "TMU Baja Racing",
+      "category": "design_team",
+      "pageSection": "Build land & water vehicles",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs and builds an off-road vehicle for one or two Baja SAE competitions each year.",
+      "contactEmail": "bajasae@torontomu.ca",
+      "website": "https://torontometbaja.web.app/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-international-hyperloop-team",
+      "name": "TMU International Hyperloop Team",
+      "category": "design_team",
+      "pageSection": "Build land & water vehicles",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Working toward building a fully functioning Hyperloop pod.",
+      "contactEmail": "hyperloop@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "canadian-national-concrete-canoe-team",
+      "name": "Canadian National Concrete Canoe Team",
+      "category": "design_team",
+      "pageSection": "Build land & water vehicles",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Builds a canoe made of concrete and races it at an annual national competition.",
+      "contactEmail": "concretecanoe@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-engineering-concrete-toboggan-team",
+      "name": "TMU Engineering Concrete Toboggan Team",
+      "category": "design_team",
+      "pageSection": "Build land & water vehicles",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs and builds a safe, sustainable concrete toboggan for an annual inter-university race.",
+      "contactEmail": "concretetoboggan@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-cheme-car",
+      "name": "TMU ChemE Car",
+      "category": "design_team",
+      "pageSection": "Build land & water vehicles",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Builds a small car powered by a chemical reaction that must carry a set load over a given distance for a chemical-engineering competition.",
+      "contactEmail": "chemecar@mues.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-thrill-club",
+      "name": "TMU Thrill Club",
+      "category": "design_team",
+      "pageSection": "Build land & water vehicles",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs amusement-park rides and devices and enters them in international design competitions.",
+      "contactEmail": "thrillclub@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "toronto-metrobotics",
+      "name": "Toronto MetRobotics",
+      "category": "design_team",
+      "pageSection": "Design & build structures or robots",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Builds robots for industry clients (past examples include the Raptors and Airbus) and competes internationally.",
+      "contactEmail": "tmr@torontomu.ca",
+      "website": "https://www.torontometrobotics.com/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-steel-bridge-team",
+      "name": "TMU Steel Bridge Team",
+      "category": "design_team",
+      "pageSection": "Design & build structures or robots",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs and builds steel bridges for an industry-sponsored student competition.",
+      "contactEmail": "ryersonsteelbridge@ress.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Contact is on ress.ca and the handle itself retains legacy 'ryerson' branding — contact may be outdated."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-battlebots",
+      "name": "TMU BattleBots",
+      "category": "design_team",
+      "pageSection": "Design & build structures or robots",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "TMU's combat-robotics team, building robots to fight head-to-head in competition.",
+      "contactEmail": "tmubattlebots@mues.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-seismosolutions",
+      "name": "TMU Seismosolutions",
+      "category": "design_team",
+      "pageSection": "Design & build structures or robots",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs structures engineered to withstand earthquakes.",
+      "contactEmail": "seismicdesign@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-velocity",
+      "name": "TMU Velocity",
+      "category": "design_team",
+      "pageSection": "Design & build structures or robots",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Develops autonomous vehicles.",
+      "contactEmail": "velocity@torontomu.ca",
+      "website": "https://www.torontomu.ca/autonomous-vehicles-lab/velocity/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [
+        "Also reachable via Instagram @tmuvelocity; only the email is captured in contactEmail/website fields."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "cansat",
+      "name": "CANSAT",
+      "category": "design_team",
+      "pageSection": "Explore air, space or satellite crafting",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs, builds and launches a small-scale simulated satellite ('CanSat').",
+      "contactEmail": "cansat@torontomu.ca",
+      "website": "https://tmu-cansat.github.io/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "metropolitan-aerospace-and-combustion-hub",
+      "name": "Metropolitan Aerospace and Combustion Hub",
+      "category": "design_team",
+      "pageSection": "Explore air, space or satellite crafting",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs, builds, tests and flies aerial vehicles.",
+      "contactEmail": "mach@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-aero-design",
+      "name": "TMU Aero Design",
+      "category": "design_team",
+      "pageSection": "Explore air, space or satellite crafting",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Designs, builds and flies a radio-controlled aircraft for a national Aero Design competition.",
+      "contactEmail": "rad@torontomu.ca",
+      "website": "https://tmetaero.space/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-rocketry-club",
+      "name": "TMU Rocketry Club",
+      "category": "design_team",
+      "pageSection": "Explore air, space or satellite crafting",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Builds a rocket aiming to reach roughly 30,000 feet and break the sound barrier.",
+      "contactEmail": "rocketry@torontomu.ca",
+      "website": "https://www.metrocketry.com/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-unmanned-aerial-vehicle-ruav-team",
+      "name": "TMU Unmanned Aerial Vehicle (RUAV) Team",
+      "category": "design_team",
+      "pageSection": "Explore air, space or satellite crafting",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "Builds remote-controlled drones for a national unmanned-aerial-systems student competition.",
+      "contactEmail": "ruav@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "innovation-boost-zone-design-teams",
+      "name": "Innovation Boost Zone design teams",
+      "category": "design_team",
+      "pageSection": "Start or explore new business ventures",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "all_feas",
+      "description": "An umbrella program for research-based design teams in four areas: blood glucose monitoring, cancer detection, harvest technology, and combat robotics; students can join an existing team or start their own through IBZ.",
+      "contactEmail": null,
+      "website": "https://www.innovationboostzone.com/ibz-exploration",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#design-teams",
+      "verificationStatus": "PARTIAL",
+      "dataIssues": [
+        "No contact email listed on the source page, only a link to the IBZ site."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": true,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-architectural-science-society-arc-soc",
+      "name": "Toronto Metropolitan University Architectural Science Society (arc.soc)",
+      "category": "student_government",
+      "pageSection": "Student Government",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "architecture",
+      "description": "The elected student government for Architectural Science students; organizes on- and off-campus design projects and connects students with other TMU programs, faculties and professional-development opportunities.",
+      "contactEmail": "arcsocprincipal@torontomu.ca",
+      "website": "https://arc-soc.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#government",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "metropolitan-university-engineering-society-mues",
+      "name": "Metropolitan University Engineering Society (MUES)",
+      "category": "student_government",
+      "pageSection": "Student Government",
+      "groupType": null,
+      "discipline": "cross_discipline",
+      "audience": "engineering",
+      "description": "The elected student government for Engineering students; runs orientation week, the iron ring ceremony, and academic, social, athletic, charitable and career events, and supports the 40+ engineering student organizations (design teams, chapters, course unions, interest groups).",
+      "contactEmail": "info@mues.ca",
+      "website": "https://mues.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#government",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-women-in-engineering",
+      "name": "TMU Women in Engineering",
+      "category": "student_group",
+      "pageSection": "Cross-Discipline Engineering",
+      "groupType": "interest_group",
+      "discipline": "cross_discipline",
+      "audience": "engineering",
+      "description": "Supports women in the engineering community through mentorship, professional-development programming, and a social network of events.",
+      "contactEmail": null,
+      "website": "https://www.tmuwie.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "PARTIAL",
+      "dataIssues": [
+        "No contact email listed on the source page."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "engineers-without-borders-ewb",
+      "name": "Engineers Without Borders (EWB)",
+      "category": "student_group",
+      "pageSection": "Cross-Discipline Engineering",
+      "groupType": "chapter",
+      "discipline": "cross_discipline",
+      "audience": "engineering",
+      "description": "A multidisciplinary chapter focused on practical problem-solving and systemic change, working on initiatives in Canada and Sub-Saharan Africa.",
+      "contactEmail": "tmu@chapter.ewb.ca",
+      "website": "https://www.ryerson-university.ewb.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "national-society-of-black-engineers-nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "category": "student_group",
+      "pageSection": "Cross-Discipline Engineering",
+      "groupType": "chapter",
+      "discipline": "cross_discipline",
+      "audience": "engineering",
+      "description": "Encourages young people into STEM careers through leadership training and professional development for members, plus outreach programs with pre-university students.",
+      "contactEmail": "nsbe@torontomu.ca",
+      "website": "https://www.nsbetmu.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tetra",
+      "name": "Tetra",
+      "category": "student_group",
+      "pageSection": "Cross-Discipline Engineering",
+      "groupType": "interest_group",
+      "discipline": "cross_discipline",
+      "audience": "engineering",
+      "description": "A student-run group that designs assistive devices for people with disabilities, working with local medical institutions to build working prototypes for real clients.",
+      "contactEmail": "Tetraclub@torontomu.ca",
+      "website": "https://www.instagram.com/tetratmu/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "aerospace-course-union",
+      "name": "Aerospace Course Union",
+      "category": "student_group",
+      "pageSection": "Aerospace Engineering",
+      "groupType": "course_union",
+      "discipline": "aerospace_engineering",
+      "audience": "engineering",
+      "description": "Runs social events for aerospace students year-round, connects them to internship opportunities, and offers exam prep and tutorials.",
+      "contactEmail": "aerocu@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": true,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "american-institute-of-aeronautics-and-astronautics-at-tmu-aiaa-tmu",
+      "name": "American Institute of Aeronautics and Astronautics at TMU (AIAA TMU)",
+      "category": "student_group",
+      "pageSection": "Aerospace Engineering",
+      "groupType": "chapter",
+      "discipline": "aerospace_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the American Institute of Aeronautics and Astronautics — the only one in Toronto and among the first in Canada — offering research, design-build-fly competitions, scholarships and conferences, open to any engineering student interested in aerospace.",
+      "contactEmail": "aiaa.tmu@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "canadian-aeronautics-and-space-institute-casi",
+      "name": "Canadian Aeronautics and Space Institute (CASI)",
+      "category": "student_group",
+      "pageSection": "Aerospace Engineering",
+      "groupType": "chapter",
+      "discipline": "aerospace_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the Canadian Aeronautics and Space Institute; connects students with industry professionals through networking events, mock interviews, and a national aerospace student summit.",
+      "contactEmail": "casi@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "metropolitan-aerospace-rocket-society",
+      "name": "Metropolitan Aerospace Rocket Society",
+      "category": "student_group",
+      "pageSection": "Aerospace Engineering",
+      "groupType": null,
+      "discipline": "aerospace_engineering",
+      "audience": "engineering",
+      "description": "Ten student teams compete to build and launch the best rocket, supported by workshops on CAD, OpenRocket, GitHub, KiCad, Linux, soldering, Arduino, and ANSYS.",
+      "contactEmail": "Tetraclub@torontomu.ca",
+      "website": "https://marstmu.com/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Listed contact Tetraclub@torontomu.ca appears to be Tetra's email, not this group's."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "toronto-metropolitan-launch-initiative",
+      "name": "Toronto Metropolitan Launch Initiative",
+      "category": "student_group",
+      "pageSection": "Aerospace Engineering",
+      "groupType": null,
+      "discipline": "aerospace_engineering",
+      "audience": "engineering",
+      "description": "Runs workshops to prepare students to join aerospace design teams, covering tools like CAD software and Arduino.",
+      "contactEmail": "launch@mues.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "university-soaring-society",
+      "name": "University Soaring Society",
+      "category": "student_group",
+      "pageSection": "Aerospace Engineering",
+      "groupType": "interest_group",
+      "discipline": "aerospace_engineering",
+      "audience": "engineering",
+      "description": "A club for students interested in gliding and the broader world of soaring flight.",
+      "contactEmail": "uss@mues.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "325-magazine",
+      "name": "325 Magazine",
+      "category": "student_group",
+      "pageSection": "Architecture",
+      "groupType": null,
+      "discipline": "architecture",
+      "audience": "architecture",
+      "description": "An annual student-edited and -designed publication showcasing Architectural Science students' work from the year.",
+      "contactEmail": "arch325magazine@torontomu.ca",
+      "website": "https://issuu.com/mag325",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "american-institute-of-architecture-students-aias",
+      "name": "American Institute of Architecture Students (AIAS)",
+      "category": "student_group",
+      "pageSection": "Architecture",
+      "groupType": "chapter",
+      "discipline": "architecture",
+      "audience": "architecture",
+      "description": "Canada's only chapter of the American Institute of Architecture Students; a non-profit, student-run organization focused on leadership, design, and service for architecture students.",
+      "contactEmail": "aias@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "architecture-course-union-acu",
+      "name": "Architecture Course Union (ACU)",
+      "category": "student_group",
+      "pageSection": "Architecture",
+      "groupType": "course_union",
+      "discipline": "architecture",
+      "audience": "architecture",
+      "description": "Represents Architecture students on academic, networking and school-culture matters and sits on the departmental council.",
+      "contactEmail": "acu@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": true,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "american-institute-of-chemical-engineers-aiche",
+      "name": "American Institute of Chemical Engineers (AIChE)",
+      "category": "student_group",
+      "pageSection": "Chemical Engineering",
+      "groupType": "chapter",
+      "discipline": "chemical_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the American Institute of Chemical Engineers; connects members to a global peer network and current industry processes and methods.",
+      "contactEmail": "aiche@mues.ca",
+      "website": "https://www.facebook.com/AIChETMU/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "canadian-society-for-chemical-engineering-csche",
+      "name": "Canadian Society for Chemical Engineering (CSChE)",
+      "category": "student_group",
+      "pageSection": "Chemical Engineering",
+      "groupType": "chapter",
+      "discipline": "chemical_engineering",
+      "audience": "engineering",
+      "description": "TMU's student chapter of the Canadian Society for Chemical Engineering; runs conferences and networking events for career and skill development.",
+      "contactEmail": "csche@ress.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Contact is on ress.ca — contact may be outdated."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "chemical-engineering-course-union-tmuchemu",
+      "name": "Chemical Engineering Course Union (TMUChemU)",
+      "category": "student_group",
+      "pageSection": "Chemical Engineering",
+      "groupType": "course_union",
+      "discipline": "chemical_engineering",
+      "audience": "engineering",
+      "description": "Liaises between undergraduates and the Chemical Engineering department, and runs social and academic events through the year.",
+      "contactEmail": "tmuchemu@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": true,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "canadian-society-of-civil-engineers-csce",
+      "name": "Canadian Society of Civil Engineers (CSCE)",
+      "category": "student_group",
+      "pageSection": "Civil Engineering",
+      "groupType": "chapter",
+      "discipline": "civil_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the Canadian Society of Civil Engineers; runs technical talks, networking events, and public-outreach activities for the profession.",
+      "contactEmail": "csche@mues.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Listed contact csche@mues.ca looks like it belongs to the Chemical Engineering society (CSChE), not Civil's (CSCE)."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "tmu-society-for-civil-engineering-rsce",
+      "name": "TMU Society for Civil Engineering (RSCE)",
+      "category": "student_group",
+      "pageSection": "Civil Engineering",
+      "groupType": null,
+      "discipline": "civil_engineering",
+      "audience": "engineering",
+      "description": "Runs exam-prep sessions and industry meet-and-greets to help civil engineering students build connections and TMU's program reputation.",
+      "contactEmail": "ryecivil@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [
+        "Acronym 'RSCE' doesn't match the stated name 'TMU Society for Civil Engineering' (would be TSCE) — likely a legacy acronym/email handle ('ryecivil') from the group's former 'Ryerson' branding, not corrected on the page."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "electrical-and-computer-engineering-society-for-toronto-metropolitan-students",
+      "name": "Electrical and Computer Engineering Society for Toronto Metropolitan Students",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": null,
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "Represents ECE undergraduates to the department, coordinates events, and gives students a forum to raise concerns.",
+      "contactEmail": "ecestorms@torontomu.ca",
+      "website": "https://www.ecestorms.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [
+        "The group's own page text still calls itself 'RECESS', its old name."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "biomedical-engineering-course-union-becu",
+      "name": "Biomedical Engineering Course Union (BECU)",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": "course_union",
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "Advocates for biomedical engineering students and runs events like tutoring sessions and snack breaks.",
+      "contactEmail": "becu@torontomu.ca",
+      "website": "https://biomedical-engineering-course-unions-si.webflow.io/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": true,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "biomedical-engineering-society-bmes",
+      "name": "Biomedical Engineering Society (BMES)",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": "chapter",
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the Biomedical Engineering Society; offers networking, publishing opportunities, and national/international competitions and conferences.",
+      "contactEmail": "bmes@mues.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "hobby-electronics-club-hec",
+      "name": "Hobby Electronics Club (HEC)",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": "interest_group",
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "Runs weekly hands-on workshops open to all experience levels, covering things like Raspberry Pi computing and coding.",
+      "contactEmail": "ieeerec17@gmail.com",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Contact is a gmail.com address — contact may be outdated.",
+        "Email handle 'ieeerec17' references IEEE/Ryerson branding rather than Hobby Electronics Club specifically — possibly a stale or shared contact."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "ieee-toronto-metropolitan-university-computer-chapter",
+      "name": "IEEE Toronto Metropolitan University Computer Chapter",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": "chapter",
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "Runs workshops on machine learning, programming languages and other applied computer-engineering topics.",
+      "contactEmail": "ieee.comp@mues.ca",
+      "website": "https://www.ieeecstmc.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "ieee-engineering-in-medicine-biology-society-tmu-chapter",
+      "name": "IEEE Engineering in Medicine & Biology Society - Toronto Metropolitan University Chapter",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": "interest_group",
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "A biomedical-engineering interest group running collaborative problem-solving events, coding workshops, Biohack hackathons, and industry career talks.",
+      "contactEmail": "ieee.embs@mues.ca",
+      "website": "https://edu.ieee.org/ca-ryersonembs/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "institute-of-electrical-and-electronics-engineers-ieee",
+      "name": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": "chapter",
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the world's largest technical professional organization for engineers; runs workshops, tutorials, hackathons and plant tours.",
+      "contactEmail": "IEEE.RyersonU@gmail.com",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Contact is a gmail.com address and the handle retains legacy 'RyersonU' branding — contact may be outdated."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "institute-of-healthcare-improvement",
+      "name": "Institute of Healthcare Improvement",
+      "category": "student_group",
+      "pageSection": "Electrical, Computer, Biomedical Engineering",
+      "groupType": "chapter",
+      "discipline": "electrical_computer_biomedical_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of a global healthcare-systems improvement organization; runs social and professional-development events and offers certification opportunities.",
+      "contactEmail": "ihi@ress.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Contact is on ress.ca — contact may be outdated."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "american-society-of-heating-refrigerating-and-air-conditioning-engineers-ashrae",
+      "name": "American Society of Heating, Refrigerating and Air-conditioning Engineers (ASHRAE)",
+      "category": "student_group",
+      "pageSection": "Mechanical, Industrial and Mechatronics Engineering",
+      "groupType": "chapter",
+      "discipline": "mechanical_industrial_mechatronics_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the heating/refrigeration/air-conditioning engineers' society; runs research promotion, publishing, and networking activities.",
+      "contactEmail": "ASHRAE@torontomu.ca",
+      "website": "https://www.ashraetorontomu.com/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "american-society-of-mechanical-engineers-asme",
+      "name": "American Society of Mechanical Engineers (ASME)",
+      "category": "student_group",
+      "pageSection": "Mechanical, Industrial and Mechatronics Engineering",
+      "groupType": "chapter",
+      "discipline": "mechanical_industrial_mechatronics_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of ASME; runs plant tours, professional-development conferences, CAD training, social events and career fairs.",
+      "contactEmail": "asme.ryerson@gmail.com",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Contact is a gmail.com address and the handle retains legacy 'ryerson' branding — contact may be outdated."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "canadian-society-of-mechanical-engineers-csme",
+      "name": "Canadian Society of Mechanical Engineers (CSME)",
+      "category": "student_group",
+      "pageSection": "Mechanical, Industrial and Mechatronics Engineering",
+      "groupType": "chapter",
+      "discipline": "mechanical_industrial_mechatronics_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the Canadian Society of Mechanical Engineers; runs lectures, seminars, plant tours and social events for mechanical engineering students.",
+      "contactEmail": "csme@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "institute-of-industrial-and-systems-engineers-iise",
+      "name": "Institute of Industrial and Systems Engineers (IISE)",
+      "category": "student_group",
+      "pageSection": "Mechanical, Industrial and Mechatronics Engineering",
+      "groupType": "chapter",
+      "discipline": "mechanical_industrial_mechatronics_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter of the world's largest industrial-engineering professional society; offers leadership and mentorship through events and workshops.",
+      "contactEmail": "iise@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "mechanical-contractors-association-mca",
+      "name": "Mechanical Contractors Association (MCA)",
+      "category": "student_group",
+      "pageSection": "Mechanical, Industrial and Mechatronics Engineering",
+      "groupType": "chapter",
+      "discipline": "mechanical_industrial_mechatronics_engineering",
+      "audience": "engineering",
+      "description": "TMU's chapter connecting students with MCA Toronto members to learn about the job market and industry trends.",
+      "contactEmail": "mca@ress.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "NEEDS_VERIFICATION",
+      "dataIssues": [
+        "Contact is on ress.ca — contact may be outdated."
+      ],
+      "isAutomaticMembership": false,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "mechanical-engineering-course-union-mecu",
+      "name": "Mechanical Engineering Course Union (MECU)",
+      "category": "student_group",
+      "pageSection": "Mechanical, Industrial and Mechatronics Engineering",
+      "groupType": "course_union",
+      "discipline": "mechanical_industrial_mechatronics_engineering",
+      "audience": "engineering",
+      "description": "Runs academic and social events connecting mechanical engineering students with industry professionals and peers.",
+      "contactEmail": "mechu@torontomu.ca",
+      "website": null,
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": true,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    },
+    {
+      "id": "mechatronics-course-union-mcu",
+      "name": "Mechatronics Course Union (MCU)",
+      "category": "student_group",
+      "pageSection": "Mechanical, Industrial and Mechatronics Engineering",
+      "groupType": "course_union",
+      "discipline": "mechanical_industrial_mechatronics_engineering",
+      "audience": "engineering",
+      "description": "Advocates for Mechatronics Engineering students' academic and student-life needs and organizes course-specific events and resources.",
+      "contactEmail": "tmutron@torontomu.ca",
+      "website": "http://tmutron.ca/",
+      "sourceUrl": "https://www.torontomu.ca/engineering-architectural-science/student-life/undergraduate-student-life/student-involvement/#groups",
+      "verificationStatus": "VERIFIED",
+      "dataIssues": [],
+      "isAutomaticMembership": true,
+      "isUmbrella": false,
+      "estimated": {
+        "interestTags": []
+      }
+    }
+  ]
+}

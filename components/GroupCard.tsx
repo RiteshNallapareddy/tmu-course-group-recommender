@@ -84,7 +84,7 @@ export default function GroupCard({
         )
       )}
 
-      {group.dataIssues.length > 0 && (
+      {group.contactMayBeOutdated && (
         <p className="font-body text-[0.8rem] text-ink-soft mt-3">
           Contact info may be out of date.
         </p>

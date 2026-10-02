@@ -46,7 +46,8 @@
           "vehicles",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-baja-racing",
@@ -69,7 +70,8 @@
           "vehicles",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-international-hyperloop-team",
@@ -92,7 +94,8 @@
           "vehicles",
           "hands-on-building"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "canadian-national-concrete-canoe-team",
@@ -115,7 +118,8 @@
           "vehicles",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-engineering-concrete-toboggan-team",
@@ -138,7 +142,8 @@
           "vehicles",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-cheme-car",
@@ -162,7 +167,8 @@
           "chemical",
           "hands-on-building"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-thrill-club",
@@ -185,7 +191,8 @@
           "structures",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "toronto-metrobotics",
@@ -209,7 +216,8 @@
           "competitions",
           "networking-and-industry"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-steel-bridge-team",
@@ -234,7 +242,8 @@
           "structures",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "tmu-battlebots",
@@ -257,7 +266,8 @@
           "robots",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-seismosolutions",
@@ -279,7 +289,8 @@
         "interestTags": [
           "structures"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-velocity",
@@ -303,7 +314,8 @@
         "interestTags": [
           "vehicles"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "cansat",
@@ -329,7 +341,8 @@
           "aerospace",
           "hands-on-building"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "metropolitan-aerospace-and-combustion-hub",
@@ -353,7 +366,8 @@
           "aerospace",
           "hands-on-building"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-aero-design",
@@ -377,7 +391,8 @@
           "aerospace",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-rocketry-club",
@@ -401,7 +416,8 @@
           "aerospace",
           "hands-on-building"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-unmanned-aerial-vehicle-ruav-team",
@@ -425,7 +441,8 @@
           "aerospace",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "innovation-boost-zone-design-teams",
@@ -451,7 +468,8 @@
           "robots",
           "hands-on-building"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-architectural-science-society-arc-soc",
@@ -475,7 +493,8 @@
           "networking-and-industry",
           "structures"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "metropolitan-university-engineering-society-mues",
@@ -500,7 +519,8 @@
           "networking-and-industry",
           "cross-discipline"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tmu-women-in-engineering",
@@ -527,7 +547,8 @@
           "community-and-identity-based-groups",
           "cross-discipline"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "engineers-without-borders-ewb",
@@ -551,7 +572,8 @@
           "advocacy-and-representation",
           "cross-discipline"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "national-society-of-black-engineers-nsbe",
@@ -576,7 +598,8 @@
           "community-and-identity-based-groups",
           "workshops-and-skills"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "tetra",
@@ -600,7 +623,8 @@
           "hands-on-building",
           "biomedical"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "aerospace-course-union",
@@ -625,7 +649,8 @@
           "workshops-and-skills",
           "aerospace"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "american-institute-of-aeronautics-and-astronautics-at-tmu-aiaa-tmu",
@@ -650,7 +675,8 @@
           "aerospace",
           "networking-and-industry"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "canadian-aeronautics-and-space-institute-casi",
@@ -674,7 +700,8 @@
           "aerospace",
           "workshops-and-skills"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "metropolitan-aerospace-rocket-society",
@@ -702,7 +729,8 @@
           "aerospace",
           "electronics"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "toronto-metropolitan-launch-initiative",
@@ -726,7 +754,8 @@
           "aerospace",
           "electronics"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "university-soaring-society",
@@ -750,7 +779,8 @@
           "aerospace",
           "social-and-community"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "325-magazine",
@@ -772,7 +802,8 @@
         "interestTags": [
           "social-and-community"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "american-institute-of-architecture-students-aias",
@@ -795,7 +826,8 @@
           "advocacy-and-representation",
           "workshops-and-skills"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "architecture-course-union-acu",
@@ -819,7 +851,8 @@
           "networking-and-industry",
           "social-and-community"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "american-institute-of-chemical-engineers-aiche",
@@ -842,7 +875,8 @@
           "networking-and-industry",
           "chemical"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "canadian-society-for-chemical-engineering-csche",
@@ -868,7 +902,8 @@
           "workshops-and-skills",
           "chemical"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "chemical-engineering-course-union-tmuchemu",
@@ -892,7 +927,8 @@
           "social-and-community",
           "chemical"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "canadian-society-of-civil-engineers-csce",
@@ -919,7 +955,8 @@
           "civil",
           "workshops-and-skills"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "tmu-society-for-civil-engineering-rsce",
@@ -945,7 +982,8 @@
           "networking-and-industry",
           "civil"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "electrical-and-computer-engineering-society-for-toronto-metropolitan-students",
@@ -971,7 +1009,8 @@
           "social-and-community",
           "electrical-and-computer"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "biomedical-engineering-course-union-becu",
@@ -996,7 +1035,8 @@
           "workshops-and-skills",
           "biomedical"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "biomedical-engineering-society-bmes",
@@ -1020,7 +1060,8 @@
           "competitions",
           "biomedical"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "hobby-electronics-club-hec",
@@ -1047,7 +1088,8 @@
           "workshops-and-skills",
           "electronics"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "ieee-toronto-metropolitan-university-computer-chapter",
@@ -1070,7 +1112,8 @@
           "workshops-and-skills",
           "electrical-and-computer"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "ieee-engineering-in-medicine-biology-society-tmu-chapter",
@@ -1095,7 +1138,8 @@
           "networking-and-industry",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "institute-of-electrical-and-electronics-engineers-ieee",
@@ -1122,7 +1166,8 @@
           "electrical-and-computer",
           "competitions"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "institute-of-healthcare-improvement",
@@ -1149,7 +1194,8 @@
           "biomedical",
           "networking-and-industry"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "american-society-of-heating-refrigerating-and-air-conditioning-engineers-ashrae",
@@ -1172,7 +1218,8 @@
           "networking-and-industry",
           "mechanical-and-industrial"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "american-society-of-mechanical-engineers-asme",
@@ -1199,7 +1246,8 @@
           "social-and-community",
           "mechanical-and-industrial"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "canadian-society-of-mechanical-engineers-csme",
@@ -1224,7 +1272,8 @@
           "mechanical-and-industrial",
           "networking-and-industry"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "institute-of-industrial-and-systems-engineers-iise",
@@ -1248,7 +1297,8 @@
           "networking-and-industry",
           "mechanical-and-industrial"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "mechanical-contractors-association-mca",
@@ -1273,7 +1323,8 @@
           "networking-and-industry",
           "mechanical-and-industrial"
         ]
-      }
+      },
+      "contactMayBeOutdated": true
     },
     {
       "id": "mechanical-engineering-course-union-mecu",
@@ -1297,7 +1348,8 @@
           "networking-and-industry",
           "mechanical-and-industrial"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     },
     {
       "id": "mechatronics-course-union-mcu",
@@ -1321,7 +1373,8 @@
           "social-and-community",
           "mechanical-and-industrial"
         ]
-      }
+      },
+      "contactMayBeOutdated": false
     }
   ]
 }

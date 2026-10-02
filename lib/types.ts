@@ -152,6 +152,11 @@ export interface GroupRecord {
   sourceUrl: string;
   verificationStatus: GroupVerificationStatus;
   dataIssues: string[];
+  /** True only when a dataIssue is specifically about the listed contact
+   * being wrong or likely stale (not for unrelated notes like a typo or a
+   * missing email) — this is what GroupCard uses to decide whether to warn
+   * the student about the contact. */
+  contactMayBeOutdated: boolean;
   isAutomaticMembership: boolean;
   isUmbrella: boolean;
   estimated: GroupEstimatedFields;

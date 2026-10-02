@@ -68,8 +68,19 @@ export default function GroupCard({
             isPrimary ? "text-sm mt-5" : "text-[0.8rem] mt-4",
           ].join(" ")}
         >
-          You&apos;re already a member — all full-time undergrads in this
-          department automatically are. Here&apos;s how to get involved.
+          You&apos;re automatically a member as a full-time student in this
+          program. Reach out to get involved:
+          {group.contactEmail && (
+            <>
+              {" "}
+              <a
+                href={`mailto:${group.contactEmail}`}
+                className="underline underline-offset-2 hover:text-blueprint"
+              >
+                {group.contactEmail}
+              </a>
+            </>
+          )}
         </p>
       ) : (
         explanation && (

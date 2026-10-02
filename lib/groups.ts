@@ -1,6 +1,5 @@
 import { GroupRecord, GroupsDataset, ScoredResult } from "./types";
 import { scoreItems } from "./matching";
-import { interestsById } from "./tagging";
 import {
   GROUP_INTERESTS,
   PROGRAM_TO_COURSE_UNION_ID,
@@ -50,12 +49,20 @@ const DISCIPLINE_BOOST = 20;
 /**
  * Ranks groups against the student's selected interests, the same way
  * recommendCourses ranks liberals — via the shared scorer in lib/matching.ts
- * — then applies two groups-specific adjustments that don't belong in the
- * generic engine:
- *   1. A flat score boost for groups in the student's own discipline.
- *   2. Pinning the student's exact course union into the results, so
- *      "you're already a member" always surfaces regardless of whether tag
- *      overlap alone would have ranked it highly enough.
+ * — then applies one groups-specific adjustment that doesn't belong in the
+ * generic engine: a flat score boost for groups in the student's own
+ * discipline. This can only ever affect items that already have at least
+ * one real interest overlap (scoreItems drops zero-overlap items before the
+ * boost is applied), and ranking is primarily by matched-interest count, so
+ * the boost can only break ties or nudge within the same match tier — it
+ * can never lift a weaker interest match above a stronger one.
+ *
+ * The student's own course union is deliberately excluded from this ranked
+ * pool. It's a discipline-membership fact, not an interest match, and
+ * frequently has little or no tag overlap with what the student picked
+ * (e.g. Aerospace Course Union is tagged social/networking/workshops, not
+ * "vehicles" or "robots"). Surface it separately via
+ * getCourseUnionForProgram — see "Your course union" in the results UI.
  *
  * Identity-gated groups (Women in Engineering, NSBE) need no special
  * handling here: they're simply tagged with the opt-in
@@ -70,8 +77,11 @@ export function recommendGroups(
 ): ScoredResult<GroupRecord>[] {
   if (selectedInterestIds.length === 0) return [];
 
+  const courseUnion = getCourseUnionForProgram(program);
   const pool = audiencePool(program);
-  const candidates = getAllGroups().filter((g) => pool.includes(g.audience));
+  const candidates = getAllGroups().filter(
+    (g) => pool.includes(g.audience) && g.id !== courseUnion?.id
+  );
   const byId = new Map(candidates.map((g) => [g.id, g]));
 
   const scored = scoreItems(
@@ -88,7 +98,7 @@ export function recommendGroups(
 
   const targetDiscipline = program ? PROGRAM_TO_DISCIPLINE[program] : null;
 
-  let results: ScoredResult<GroupRecord>[] = scored.map((r) => {
+  const results: ScoredResult<GroupRecord>[] = scored.map((r) => {
     const group = byId.get(r.item.id) as GroupRecord;
     const boosted =
       targetDiscipline !== null && group.discipline === targetDiscipline
@@ -97,25 +107,17 @@ export function recommendGroups(
     return { item: group, score: boosted, matchedInterests: r.matchedInterests };
   });
 
+  // Rank by interest-match strength first, so the discipline boost can only
+  // ever act within a match tier (break ties / nudge close scores) — never
+  // let a group matching fewer of the student's picks outrank one matching
+  // more of them.
   results.sort((a, b) => {
+    if (b.matchedInterests.length !== a.matchedInterests.length) {
+      return b.matchedInterests.length - a.matchedInterests.length;
+    }
     if (b.score !== a.score) return b.score - a.score;
     return a.item.id.localeCompare(b.item.id);
   });
 
-  results = results.slice(0, limit);
-
-  const courseUnion = getCourseUnionForProgram(program);
-  if (courseUnion && !results.some((r) => r.item.id === courseUnion.id)) {
-    const overlap = courseUnion.estimated.interestTags.filter((t) =>
-      selectedInterestIds.includes(t)
-    );
-    const pinned: ScoredResult<GroupRecord> = {
-      item: courseUnion,
-      score: 100,
-      matchedInterests: interestsById(overlap, GROUP_INTERESTS),
-    };
-    results = [pinned, ...results].slice(0, limit);
-  }
-
-  return results;
+  return results.slice(0, limit);
 }

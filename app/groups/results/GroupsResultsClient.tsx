@@ -5,7 +5,11 @@ import { useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import GroupCard from "@/components/GroupCard";
-import { recommendGroups, getStartYourOwnLinks } from "@/lib/groups";
+import {
+  recommendGroups,
+  getStartYourOwnLinks,
+  getCourseUnionForProgram,
+} from "@/lib/groups";
 import { interestsById } from "@/lib/tagging";
 import { GROUP_INTERESTS, PROGRAM_OPTIONS, ProgramId } from "@/data/groupInterests";
 
@@ -33,6 +37,10 @@ export default function GroupsResultsClient() {
   const results = useMemo(
     () => recommendGroups(interestIds, program, 5),
     [interestIds, program]
+  );
+  const courseUnion = useMemo(
+    () => getCourseUnionForProgram(program),
+    [program]
   );
 
   const [topMatch, ...rest] = results;
@@ -163,6 +171,18 @@ export default function GroupsResultsClient() {
               </section>
             )}
           </>
+        )}
+
+        {courseUnion && (
+          <section className="mt-14">
+            <h2 className="eyebrow text-xs text-ink-soft mb-4">
+              Your Course Union
+            </h2>
+            <GroupCard
+              result={{ item: courseUnion, score: 0, matchedInterests: [] }}
+              variant="secondary"
+            />
+          </section>
         )}
       </div>
     </main>

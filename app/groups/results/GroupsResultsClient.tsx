@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import GroupCard from "@/components/GroupCard";
+import WorkshopSuggestions from "@/components/WorkshopSuggestions";
 import {
   recommendGroups,
   getStartYourOwnLinks,
@@ -35,7 +36,7 @@ export default function GroupsResultsClient() {
     [interestIds]
   );
   const results = useMemo(
-    () => recommendGroups(interestIds, program, 5),
+    () => recommendGroups(interestIds, program, 3),
     [interestIds, program]
   );
   const courseUnion = useMemo(
@@ -184,6 +185,8 @@ export default function GroupsResultsClient() {
             />
           </section>
         )}
+
+        <WorkshopSuggestions />
       </div>
     </main>
   );

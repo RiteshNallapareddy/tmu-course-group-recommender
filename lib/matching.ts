@@ -2,6 +2,24 @@ import { Interest, Recommendable, ScoredResult } from "./types";
 import { interestsById } from "./tagging";
 
 /**
+ * Deterministic pseudo-random tie-break key for a (seed, id) pair: the same
+ * seed and id always hash to the same key, so re-rendering or reloading
+ * with the same selected interests gives a stable order — but it isn't
+ * alphabetical, and a different interest selection gives a different order.
+ * FNV-1a; good enough for breaking ties fairly, not for anything
+ * security-sensitive.
+ */
+function tieBreakKey(seed: string, id: string): number {
+  let h = 0x811c9dc5;
+  const s = `${seed}::${id}`;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+
+/**
  * Ranks any list of Recommendable items against a student's selected
  * interests and returns the top N. Scoring is purely data-driven: it counts
  * overlap between selected interest ids and each item's interestTags. No
@@ -45,11 +63,18 @@ export function scoreItems<T extends Recommendable>(
     });
   }
 
-  // Deterministic ranking: score descending, then id ascending as an
-  // explicit tie-breaker, rather than relying on incidental array order.
+  // Deterministic ranking: score descending, then a tie-break seeded from
+  // the student's own selected interests (not alphabetical — an
+  // alphabetically-first item would otherwise always "win" a tie, which
+  // isn't actually a better fit). Seeding on the interest set (sorted, so
+  // click order doesn't matter) means the same selection reloads to the
+  // same order instead of reshuffling every render.
+  const tieSeed = [...selectedInterestIds].sort().join(",");
   results.sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
-    return a.item.id.localeCompare(b.item.id);
+    return (
+      tieBreakKey(tieSeed, a.item.id) - tieBreakKey(tieSeed, b.item.id)
+    );
   });
 
   return results.slice(0, limit);

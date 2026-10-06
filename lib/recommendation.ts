@@ -99,4 +99,48 @@ export function getInterestList() {
   return INTERESTS;
 }
 
+/**
+ * How far (in score points, 0-100) the top course has to lead the next
+ * distinct score before it counts as "clearly ahead" and gets shown alone
+ * in Your Top Matches. Below this gap — or whenever more than one course
+ * shares the top score — there's no honest way to call a single winner, so
+ * students see the top group instead (see groupTopMatches).
+ *
+ * 15 was picked from the real data: course tag counts are 1-3, so same-tier
+ * score "noise" from the specificity penalty in scoreItems is at most ~3
+ * points, while actually matching one more of the student's interests is
+ * worth roughly 30 points. 15 sits well clear of both. Tune it directly.
+ */
+export const CLEAR_LEAD_SCORE_GAP = 15;
+
+export interface TopMatchGroups {
+  topMatches: RecommendationResult[];
+  alsoLike: RecommendationResult[];
+}
+
+/**
+ * Splits an already score-sorted result list into "Your Top Matches" and
+ * "You Might Also Like". Top Matches is 1 course if it's clearly ahead
+ * (see CLEAR_LEAD_SCORE_GAP), otherwise the top 3 — padded up to 3 when the
+ * tied group is smaller, or trimmed down to 3 when it's bigger (scoreItems'
+ * seeded tie-break already picked which ones survive that trim). Since
+ * alsoLike is just "everything after" in the same list, it can never repeat
+ * a course that's already in topMatches.
+ */
+export function groupTopMatches(results: RecommendationResult[]): TopMatchGroups {
+  if (results.length === 0) return { topMatches: [], alsoLike: [] };
+
+  const topScore = results[0].score;
+  const topTierCount = results.filter((r) => r.score === topScore).length;
+  const nextDistinct = results.find((r) => r.score !== topScore);
+  const gap = nextDistinct ? topScore - nextDistinct.score : Infinity;
+  const clearlyAhead = topTierCount === 1 && gap >= CLEAR_LEAD_SCORE_GAP;
+
+  const topCount = clearlyAhead ? 1 : Math.min(3, results.length);
+  return {
+    topMatches: results.slice(0, topCount),
+    alsoLike: results.slice(topCount),
+  };
+}
+
 export { getMatchExplanation } from "./matching";

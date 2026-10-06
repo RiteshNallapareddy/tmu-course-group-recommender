@@ -66,4 +66,26 @@ test.describe("groups results ranking", () => {
 
     await expect(page.getByText("Mechanical Engineering Course Union", { exact: false })).toHaveCount(0);
   });
+
+  test("shows the top 3 teams total (1 top match + 2 you might also like)", async ({ page }) => {
+    await page.goto(
+      resultsUrl(["vehicles", "competitions", "robots"], "aerospace_engineering")
+    );
+
+    const topMatchSection = page.locator("section", { has: page.getByText("Your Top Match") });
+    await expect(topMatchSection.locator("h3")).toHaveCount(1);
+
+    const alsoLikeSection = page.locator("section", { has: page.getByText("You Might Also Like") });
+    await expect(alsoLikeSection.locator("h3")).toHaveCount(2);
+  });
+
+  test("no Instagram link renders while every group's instagram field is still null", async ({
+    page,
+  }) => {
+    await page.goto(
+      resultsUrl(["vehicles", "competitions", "robots"], "aerospace_engineering")
+    );
+
+    await expect(page.getByRole("link", { name: "Instagram" })).toHaveCount(0);
+  });
 });

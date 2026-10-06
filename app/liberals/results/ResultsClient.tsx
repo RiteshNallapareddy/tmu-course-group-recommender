@@ -5,7 +5,8 @@ import { useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import CourseCard from "@/components/CourseCard";
-import { recommendCourses } from "@/lib/recommendation";
+import WorkshopSuggestions from "@/components/WorkshopSuggestions";
+import { recommendCourses, groupTopMatches } from "@/lib/recommendation";
 import { interestsById } from "@/lib/tagging";
 import { INTERESTS } from "@/data/interests";
 import { getMinorCreditForCourse } from "@/lib/minors";
@@ -22,8 +23,10 @@ export default function ResultsClient() {
     [interestIds]
   );
   const results = useMemo(() => recommendCourses(interestIds, 5), [interestIds]);
-
-  const [topMatch, ...rest] = results;
+  const { topMatches, alsoLike } = useMemo(
+    () => groupTopMatches(results),
+    [results]
+  );
 
   const hasAnyMinorCredit = useMemo(
     () => results.some((r) => getMinorCreditForCourse(r.course.courseCode).length > 0),
@@ -109,22 +112,31 @@ export default function ResultsClient() {
           </motion.div>
         ) : (
           <>
-            {topMatch && (
+            {topMatches.length > 0 && (
               <section>
                 <h2 className="eyebrow text-xs text-white bg-blueprint inline-block px-3 py-1.5 rounded mb-4">
-                  Your Top Match
+                  Your Top Matches
                 </h2>
-                <CourseCard result={topMatch} variant="primary" />
+                <div className="flex flex-col gap-6">
+                  {topMatches.map((result, i) => (
+                    <CourseCard
+                      key={result.course.courseCode}
+                      result={result}
+                      variant="primary"
+                      index={i}
+                    />
+                  ))}
+                </div>
               </section>
             )}
 
-            {rest.length > 0 && (
+            {alsoLike.length > 0 && (
               <section className="mt-14">
                 <h2 className="eyebrow text-xs text-ink-soft mb-4">
                   You Might Also Like
                 </h2>
                 <div className="flex flex-col gap-3">
-                  {rest.map((result, i) => (
+                  {alsoLike.map((result, i) => (
                     <CourseCard
                       key={result.course.courseCode}
                       result={result}
@@ -149,6 +161,8 @@ export default function ResultsClient() {
             )}
           </>
         )}
+
+        <WorkshopSuggestions />
       </div>
     </main>
   );

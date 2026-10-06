@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "title": "TMU Clubs -- All Campus Clubs (not FEAS-specific)",
+    "schemaVersion": 1,
+    "totalRecords": 0,
+    "lastImportedAt": null,
+    "sourceNote": "Empty scaffold. Populate by running `node scripts/import-clubs-csv.mjs <path-to-csv>` against a CSV export -- see scripts/sample-clubs.csv for the expected column format and scripts/import-clubs-csv.mjs for validation rules. Each import fully replaces this file's clubs array from the given CSV."
+  },
+  "clubs": []
+}

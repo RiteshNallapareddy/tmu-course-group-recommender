@@ -149,6 +149,9 @@ export interface GroupRecord {
   description: string;
   contactEmail: string | null;
   website: string | null;
+  /** Instagram handle only, no leading "@" and no URL (e.g. "tmurocketry")
+   * — GroupCard builds the profile link. Null/empty hides the link. */
+  instagram: string | null;
   sourceUrl: string;
   verificationStatus: GroupVerificationStatus;
   dataIssues: string[];
@@ -170,4 +173,41 @@ export interface GroupsDataset {
     techBased: string;
   };
   groups: GroupRecord[];
+}
+
+/**
+ * Campus-wide TMU clubs (not FEAS-specific, not matched against interests
+ * yet — see lib/clubs.ts and scripts/import-clubs-csv.mjs). Deliberately a
+ * smaller shape than GroupRecord: just enough to list and filter active
+ * clubs. `categories` is free-form text, not the curated GROUP_INTERESTS
+ * taxonomy, since it covers all of TMU rather than FEAS design teams.
+ */
+export interface ClubRecord {
+  id: string;
+  name: string;
+  categories: string[];
+  contactEmail: string | null;
+  instagram: string | null;
+  active: boolean;
+}
+
+export interface ClubsDataset {
+  meta: Record<string, unknown>;
+  clubs: ClubRecord[];
+}
+
+/**
+ * A student-friendly grouping of certifications/workshops (e.g. "CAD",
+ * "3D Printing"), shown as a general, non-personalized suggestion — there
+ * is deliberately no matching/scoring against this type anywhere, and no
+ * date or schedule field, since specific session times aren't something
+ * this app tracks. hostName/hostUrl are nullable rather than guessed: see
+ * data/workshops.ts.
+ */
+export interface WorkshopCategory {
+  id: string;
+  label: string;
+  description: string;
+  hostName: string | null;
+  hostUrl: string | null;
 }

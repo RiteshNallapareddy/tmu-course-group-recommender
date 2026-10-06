@@ -132,6 +132,20 @@ export default function GroupCard({
             <span aria-hidden="true">→</span>
           </a>
         )}
+        {group.instagram && (
+          <a
+            href={`https://www.instagram.com/${group.instagram.replace(/^@/, "")}/`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={[
+              "inline-flex items-center gap-1.5 font-display font-bold text-ink hover:text-blueprint border-2 border-ink hover:border-blueprint transition-colors rounded",
+              isPrimary ? "text-sm px-4 py-2" : "text-xs px-3 py-1.5",
+            ].join(" ")}
+          >
+            Instagram
+            <span aria-hidden="true">→</span>
+          </a>
+        )}
       </div>
 
       <p className="font-body text-[0.8rem] text-ink-soft/70 mt-3">
